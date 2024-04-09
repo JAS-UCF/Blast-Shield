@@ -157,7 +157,7 @@
 		(descr "Through hole straight socket strip, 1x15, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x15 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0 -2.77 270)
+			(at 0 -2.77 -90)
 			(layer "F.SilkS")
 			(uuid "bfefe7ea-c25e-4030-9cbe-53bd9984b66f")
 			(effects
@@ -168,7 +168,7 @@
 			)
 		)
 		(property "Value" "Conn_01x15_Socket"
-			(at 0 38.33 270)
+			(at 0 38.33 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "604a6693-88d3-4512-a466-99912b358f04")
@@ -371,7 +371,7 @@
 			(uuid "6cdb2ff7-d709-4e99-9a2a-c2afd5e4d274")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 17.78 360)
+			(at 0 17.78 0)
 			(layer "F.Fab")
 			(uuid "9ed67282-b13b-4ea0-8dab-b52e0db3a046")
 			(effects
@@ -565,7 +565,7 @@
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D2"
-			(at 0 -1.82 270)
+			(at 0 -1.82 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "696bb262-eb14-4cd8-b77b-76363f9fb00c")
@@ -577,7 +577,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 0 1.82 270)
+			(at 0 1.82 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67356f39-462e-44fd-9440-fbc1c36e6030")
@@ -776,7 +776,7 @@
 			(uuid "b5487c0e-b5af-4f70-abb8-f4f52c3c0f0a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "3be58b62-7ce5-41d4-8453-82b043633708")
 			(effects
@@ -825,7 +825,7 @@
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D3"
-			(at 0 -1.82 270)
+			(at 0 -1.82 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1fca451a-e281-42d1-8808-94246d968dbd")
@@ -837,7 +837,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 0 1.82 270)
+			(at 0 1.82 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "77daa689-2b82-485b-acfd-77bc0cdc4179")
@@ -1036,7 +1036,7 @@
 			(uuid "c3a7f5eb-6ae6-499f-a640-2fde92639bd6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "f389eed7-a0c4-4cb9-8a5a-780ff0129f2c")
 			(effects
@@ -1910,7 +1910,7 @@
 		(descr "Capacitor SMD 0504 (1310 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.49 270)
+			(at 0 -1.49 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e98a5004-0ff5-468a-83b3-68bbd6c3c4ee")
@@ -1922,7 +1922,7 @@
 			)
 		)
 		(property "Value" "3.3uF"
-			(at 0 1.49 270)
+			(at 0 1.49 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3e04c2fc-b18a-46ab-b488-d728dafc5062")
@@ -2055,7 +2055,7 @@
 			(uuid "0ad397a4-d389-4232-95ff-4c2eb4fe4410")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "a6a99cfe-45bb-479f-8d43-9fded35a322d")
 			(effects
@@ -3738,7 +3738,7 @@
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D7"
-			(at 0 -1.82 270)
+			(at 0 -1.82 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ea552ef0-8916-483b-9ccf-440f6a2d49ff")
@@ -3750,7 +3750,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 0 1.82 270)
+			(at 0 1.82 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a17c5693-fd3f-496e-8e2b-69ff98a5c223")
@@ -3949,7 +3949,7 @@
 			(uuid "584a8099-bd47-4b09-9fd1-b1e1a9929125")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "c004b8c5-0194-4380-8048-b9cc310fbeaf")
 			(effects
@@ -4278,7 +4278,7 @@
 		(descr "Terminal Block 4Ucon ItemNo. 10693, vertical (cable from top), 2 pins, pitch 3.5mm, size 8x8.3mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.4uconnector.com/online/object/4udrawing/10693.pdf, script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_4Ucon")
 		(tags "THT Terminal Block 4Ucon ItemNo. 10693 vertical pitch 3.5mm size 8x8.3mm^2 drill 1.3mm pad 2.6mm")
 		(property "Reference" "J7"
-			(at 1.75 -4.76 270)
+			(at 1.75 -4.76 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0c0d804e-a60b-4a9d-8d07-4ae6adda0980")
@@ -4290,7 +4290,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 1.75 5.66 270)
+			(at 1.75 5.66 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "55126d63-9903-4538-a568-e36b390442b1")
@@ -4757,7 +4757,7 @@
 			(uuid "0069cdea-f6d4-49d0-9cb6-0c7988e69b77")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.75 3.45 270)
+			(at 1.75 3.45 -90)
 			(layer "F.Fab")
 			(uuid "3fc66d4f-cd75-4189-bada-755d66543e9f")
 			(effects
@@ -5508,7 +5508,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0 -1.16 270)
+			(at 0 -1.16 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "53978802-cecb-4684-9a55-82fe064f4a74")
@@ -5520,7 +5520,7 @@
 			)
 		)
 		(property "Value" "0.01uF"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "53068059-0df7-4676-acb2-3ee07c9c9811")
@@ -5673,7 +5673,7 @@
 			(uuid "f90a4dbf-e64d-4c5d-96e4-6ab0ad5e02e0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "dfb23620-0394-4fef-a544-8dcdf51b4956")
 			(effects
@@ -6212,7 +6212,7 @@
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D9"
-			(at 0 -1.82 270)
+			(at 0 -1.82 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "77624b84-a820-4347-8d7b-55d187e373f5")
@@ -6224,7 +6224,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 0 1.82 270)
+			(at 0 1.82 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7680e2d1-ccc9-4973-b682-573a1c32b313")
@@ -6423,7 +6423,7 @@
 			(uuid "1f2b392e-c02f-45b1-9045-8259608659b7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "fc229d1c-0646-4172-8545-7d14de4be55b")
 			(effects
@@ -6684,7 +6684,7 @@
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D8"
-			(at 0 -1.82 270)
+			(at 0 -1.82 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "813311b4-0ae5-47c6-aad0-78629957e490")
@@ -6696,7 +6696,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 0 1.82 270)
+			(at 0 1.82 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fb60fbb4-79e3-4977-b450-1882fc6be1fe")
@@ -6895,7 +6895,7 @@
 			(uuid "a7ae7353-4bdb-4bb2-b8a6-60a02a1265b5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "0615e08a-5dc8-488a-a953-e2f5636b5f25")
 			(effects
@@ -8840,7 +8840,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C23"
-			(at 0 -1.16 270)
+			(at 0 -1.16 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "06307cdd-9f37-4a24-bf0f-6db1c02cc620")
@@ -8852,7 +8852,7 @@
 			)
 		)
 		(property "Value" "0.01uF"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d3727267-8b1e-4175-8c31-c9248a2590a5")
@@ -9005,7 +9005,7 @@
 			(uuid "83c74fc5-bb28-4716-81f3-d0e35f35df0d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "02f655b9-fb68-42bd-9e75-b0ff18033d55")
 			(effects
@@ -9052,7 +9052,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C19"
-			(at 0 -1.16 270)
+			(at 0 -1.16 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c13321d9-ca36-4401-bbfa-396ff28468d0")
@@ -9064,7 +9064,7 @@
 			)
 		)
 		(property "Value" "0.01uF"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1d40ace4-1106-407b-8ec4-08030052f4c1")
@@ -9217,7 +9217,7 @@
 			(uuid "ffb121aa-43ff-4977-b607-9e11bfeccf97")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "cc6bbead-7b59-4b86-b39a-59e21e4fac94")
 			(effects
@@ -11088,7 +11088,7 @@
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D6"
-			(at 0 -1.82 270)
+			(at 0 -1.82 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e0fe5e03-e4fe-40b5-b9c4-eb4987dac527")
@@ -11100,7 +11100,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 0 1.82 270)
+			(at 0 1.82 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "338e788d-e455-4890-93cf-d9fdd9daa923")
@@ -11299,7 +11299,7 @@
 			(uuid "55453f73-90c7-40ff-b264-be336c71059b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "d90832af-b12d-4ffb-a339-45370f3a1b9d")
 			(effects
@@ -12467,7 +12467,7 @@
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D5"
-			(at 0 -1.82 270)
+			(at 0 -1.82 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "637714ff-8cbe-4de6-9c3f-c9b7545e3ceb")
@@ -12479,7 +12479,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 0 1.82 270)
+			(at 0 1.82 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "95c40228-967e-4ee4-ad16-756299176f8f")
@@ -12678,7 +12678,7 @@
 			(uuid "50225cf9-aedb-44c6-abbe-89e8f717ed0a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "21248043-988d-41fa-a38e-940f969e413a")
 			(effects
@@ -14320,7 +14320,7 @@
 		(descr "Through hole straight socket strip, 1x15, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x15 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 -2.77 270)
+			(at 0 -2.77 -90)
 			(layer "F.SilkS")
 			(uuid "c8118175-d147-4ec3-9df2-0b6c6035f496")
 			(effects
@@ -14331,7 +14331,7 @@
 			)
 		)
 		(property "Value" "Conn_01x15_Socket"
-			(at 0 38.33 270)
+			(at 0 38.33 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ceb4944-b024-4de7-abd3-02151059225d")
@@ -14534,7 +14534,7 @@
 			(uuid "3ab16f33-ea52-43c3-b71e-9849ce2b9504")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 17.78 360)
+			(at 0 17.78 0)
 			(layer "F.Fab")
 			(uuid "6c070a07-b3cc-426d-9d23-bc85ab4037a6")
 			(effects
@@ -14728,7 +14728,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
-			(at 0 -1.16 270)
+			(at 0 -1.16 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6831b618-9f72-4a7c-accc-bab40bed1d9f")
@@ -14740,7 +14740,7 @@
 			)
 		)
 		(property "Value" "0.01uF"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "33797ccf-789a-4e4e-bd5d-246a18671249")
@@ -14893,7 +14893,7 @@
 			(uuid "13b0f1c0-3a28-4b94-aea0-3a6ca65e49a8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "5fad66fc-eb94-4c82-8bc5-7be6b8a591ba")
 			(effects
@@ -15952,6 +15952,7 @@
 		(property "Reference" "C20"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b21b450d-fb99-41bd-b9a7-dfd9fa082b78")
 			(effects
 				(font
@@ -16161,7 +16162,7 @@
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D4"
-			(at 0 -1.82 270)
+			(at 0 -1.82 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2c3c550b-72e7-45ee-9420-235ad3a1cc15")
@@ -16173,7 +16174,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 0 1.82 270)
+			(at 0 1.82 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0dfb8244-f80d-4b2d-9fd3-88784671e459")
@@ -16372,7 +16373,7 @@
 			(uuid "e5507c28-9744-470e-9e05-ae614e222e42")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "0cb61d4a-b5b4-4720-b345-aa7cb4cebc44")
 			(effects
