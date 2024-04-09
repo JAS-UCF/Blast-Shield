@@ -1532,7 +1532,7 @@
 		)
 	)
 	(sheet
-		(at 69.85 76.2)
+		(at 69.85 39.37)
 		(size 16.51 11.43)
 		(fields_autoplaced yes)
 		(stroke
@@ -1542,9 +1542,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "1bf4faff-0fe0-485e-b99b-582bd0fd1695")
-		(property "Sheetname" "MAX6675 K-Type Thermocouple Amp 4"
-			(at 69.85 75.4884 0)
+		(uuid "33494ee0-5260-4aa3-9ab4-c336b9d18702")
+		(property "Sheetname" "MAX6675 K-Type Thermocouple Amp 2"
+			(at 69.85 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,7 +1553,7 @@
 			)
 		)
 		(property "Sheetfile" "max6675.kicad_sch"
-			(at 69.85 88.2146 0)
+			(at 69.85 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,45 +1562,45 @@
 			)
 		)
 		(pin "CS" input
-			(at 69.85 80.01 180)
+			(at 69.85 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9a31101d-795a-4f4c-a420-ed1238944850")
+			(uuid "5aa6385f-92ca-402e-acf6-a3e81067540c")
 		)
 		(pin "SCK" input
-			(at 69.85 82.55 180)
+			(at 69.85 45.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "74d8ab0e-9d51-454c-8867-96dd9d2a5a2f")
+			(uuid "d6fce9f8-9f69-4da5-93c3-f714e5ebebca")
 		)
 		(pin "DO" input
-			(at 69.85 85.09 180)
+			(at 69.85 48.26 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4002d3cb-7f7d-4091-83e9-3f4a06894cc1")
+			(uuid "754ccd1c-0d9f-48de-8261-fc828bc7b857")
 		)
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
-					(page "6")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 69.85 58.42)
+		(at 69.85 59.69)
 		(size 16.51 11.43)
 		(fields_autoplaced yes)
 		(stroke
@@ -1610,9 +1610,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "47bcc4bc-47b2-4774-9191-dc02bdfb246f")
+		(uuid "b6f4e946-46a4-4670-a1fe-6fb7545d6b82")
 		(property "Sheetname" "MAX6675 K-Type Thermocouple Amp 3"
-			(at 69.85 57.7084 0)
+			(at 69.85 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +1621,7 @@
 			)
 		)
 		(property "Sheetfile" "max6675.kicad_sch"
-			(at 69.85 70.4346 0)
+			(at 69.85 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,39 +1630,107 @@
 			)
 		)
 		(pin "CS" input
-			(at 69.85 62.23 180)
+			(at 69.85 63.5 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2bf34927-ec40-41ff-8447-847cfce2f396")
+			(uuid "2852ea8a-fb6b-4802-8411-a875ec8e7d07")
 		)
 		(pin "SCK" input
-			(at 69.85 64.77 180)
+			(at 69.85 66.04 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3d3db73a-f560-4f3a-8f02-707445f7e30f")
+			(uuid "2f6cd497-fb4f-4a35-9b84-e4cb8d826646")
 		)
 		(pin "DO" input
-			(at 69.85 67.31 180)
+			(at 69.85 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6def936d-05a7-42e7-9e08-2d219438a125")
+			(uuid "3491bf36-a9f3-4400-b0b0-bb66fb3b86a2")
 		)
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 80.01)
+		(size 16.51 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d96b9e3e-488b-48dc-ad70-86487113a7b4")
+		(property "Sheetname" "MAX6675 K-Type Thermocouple Amp 4"
+			(at 69.85 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "max6675.kicad_sch"
+			(at 69.85 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CS" input
+			(at 69.85 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6de48819-b9da-497a-86a2-cf84345ee801")
+		)
+		(pin "SCK" input
+			(at 69.85 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da5b19b6-3de2-4cd9-9df9-68f5f0ebe82a")
+		)
+		(pin "DO" input
+			(at 69.85 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a4a96b6-f518-48f3-93c9-c249c7731f67")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(page "6")
 				)
 			)
 		)
@@ -1769,74 +1837,6 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 69.85 39.37)
-		(size 16.51 11.43)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f5b49db8-398e-4c1b-a83d-8b60cd2c4e46")
-		(property "Sheetname" "MAX6675 K-Type Thermocouple Amp 2"
-			(at 69.85 38.6584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "max6675.kicad_sch"
-			(at 69.85 51.3846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CS" input
-			(at 69.85 43.18 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0bdc0e6a-ac45-4c68-91ed-a219116008ee")
-		)
-		(pin "SCK" input
-			(at 69.85 45.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d5633988-02d3-4e1c-9da9-051e7dad0ae3")
-		)
-		(pin "DO" input
-			(at 69.85 48.26 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "534302cf-f125-4c7c-9335-d5c6755afb55")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
-					(page "4")
 				)
 			)
 		)

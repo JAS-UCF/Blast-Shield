@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -172,7 +178,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        3.0,
+        5.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -199,7 +213,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -588,15 +607,15 @@
       "MAX6675 K-Type Thermocouple Amp 1"
     ],
     [
-      "f5b49db8-398e-4c1b-a83d-8b60cd2c4e46",
+      "33494ee0-5260-4aa3-9ab4-c336b9d18702",
       "MAX6675 K-Type Thermocouple Amp 2"
     ],
     [
-      "47bcc4bc-47b2-4774-9191-dc02bdfb246f",
+      "b6f4e946-46a4-4670-a1fe-6fb7545d6b82",
       "MAX6675 K-Type Thermocouple Amp 3"
     ],
     [
-      "1bf4faff-0fe0-485e-b99b-582bd0fd1695",
+      "d96b9e3e-488b-48dc-ad70-86487113a7b4",
       "MAX6675 K-Type Thermocouple Amp 4"
     ]
   ],

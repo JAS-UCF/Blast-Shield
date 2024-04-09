@@ -1995,7 +1995,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 109.22 53.3399 0)
 			(effects
 				(font
@@ -2032,10 +2032,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c4eceaa6-0aae-43b3-8d6e-27dd8c146e16")
+			(uuid "cf68835b-7ebc-4090-ab73-230ef160b643")
 		)
 		(pin "1"
-			(uuid "11d74d13-471f-4271-9bb4-cdda9ea5ac62")
+			(uuid "110a4009-40c9-4756-b576-54a5c2fea05e")
 		)
 		(instances
 			(project "JAS Warhead PCB"
@@ -2043,15 +2043,15 @@
 					(reference "R2")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "R4")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "R6")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "R8")
 					(unit 1)
 				)
@@ -2067,7 +2067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ffcf454-653f-4e81-85b6-8089a9f71f4e")
-		(property "Reference" "C11"
+		(property "Reference" "C6"
 			(at 73.66 71.374 0)
 			(effects
 				(font
@@ -2085,7 +2085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0504_1310Metric"
 			(at 72.39 73.66 0)
 			(effects
 				(font
@@ -2113,27 +2113,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "887f055f-a3ab-4a27-845f-517454099857")
+			(uuid "d7e3ac28-b6cd-4057-afdf-9b0d07352a37")
 		)
 		(pin "1"
-			(uuid "96f78178-1581-4a26-9df8-e43c81e1f9d9")
+			(uuid "ebfe7057-7ec9-40fa-a742-1b65971ec42a")
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "C11")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "C16")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "C21")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2148,7 +2148,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a630b26-cbc4-416a-bac5-e7d1befd2e29")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR0101"
 			(at 29.21 76.2 0)
 			(effects
 				(font
@@ -2193,176 +2193,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "46d15dc9-54f0-4923-b4fa-46912914e95f")
+			(uuid "e88ee149-fff7-4222-9fdb-e67d00e9f97b")
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
-					(reference "#PWR017")
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
+					(reference "#PWR0101")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "#PWR028")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "#PWR039")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 41.91 39.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bc01b6e-8fed-4a36-8689-213cebbb4092")
-		(property "Reference" "FB3"
-			(at 41.8592 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 41.8592 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 41.148 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f7dca552-4782-4601-b280-5cc726994e24")
-		)
-		(pin "1"
-			(uuid "da069a55-a331-4e63-9969-df1acc9ba268")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
-					(reference "FB3")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
-					(reference "FB5")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
-					(reference "FB7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 41.91 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20770f4e-d18f-4997-aea0-cd5670a071ca")
-		(property "Reference" "FB2"
-			(at 41.8592 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 41.8592 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 53.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 41.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "61557b35-e430-4dcc-9810-6a979da376b9")
-		)
-		(pin "1"
-			(uuid "84665a8d-4cf6-494b-8602-296ac90991f1")
-		)
-		(instances
-			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "FB2")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
-					(reference "FB4")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
-					(reference "FB6")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
-					(reference "FB8")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2422,13 +2270,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "20bfc822-c31e-4e91-910e-63f1cf140cde")
+			(uuid "515ca8f3-7d1e-4f23-9909-d840aed5a294")
 		)
 		(pin "2"
-			(uuid "1c1e18a6-7e65-4dca-9277-2cf71b401f04")
+			(uuid "943f0cea-6c39-4bd7-8379-05cae7e59700")
 		)
 		(pin "3"
-			(uuid "f896595b-10e1-4c58-b701-dec8c6f2af16")
+			(uuid "dae569af-d4f1-43d4-9811-f47f1ab82033")
 		)
 		(instances
 			(project "JAS Warhead PCB"
@@ -2436,15 +2284,15 @@
 					(reference "U3")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
-					(reference "U4")
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
+					(reference "U2")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
-					(reference "U6")
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
+					(reference "U10")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "U8")
 					(unit 1)
 				)
@@ -2460,7 +2308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d04b786-000c-41f0-9d20-013b89467c4b")
-		(property "Reference" "1N4148"
+		(property "Reference" "D2"
 			(at 116.84 51.816 0)
 			(effects
 				(font
@@ -2468,15 +2316,15 @@
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 118.872 49.276 0)
+		(property "Value" "1N4148"
+			(at 110.998 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 116.84 48.26 0)
 			(effects
 				(font
@@ -2522,27 +2370,107 @@
 			)
 		)
 		(pin "2"
-			(uuid "4cbe1944-4985-4062-aff4-6d1b1fdc9ba2")
+			(uuid "d1a667ba-53e4-4844-9153-3cf833ef7805")
 		)
 		(pin "1"
-			(uuid "d45068fb-abf2-4a9b-b489-abf21c1c351f")
+			(uuid "b7c3afec-2bb4-4fc9-888d-63d7b1e7a4ca")
 		)
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "1N4148")
+					(reference "D2")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
-					(reference "1N2")
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
+					(reference "D4")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
-					(reference "1N4")
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
+					(reference "D6")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
-					(reference "1N6")
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 41.91 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "373cee34-472d-48d8-a3db-44a1536babd9")
+		(property "Reference" "FB4"
+			(at 41.8592 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 41.8592 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 41.91 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "803f1f5a-0160-4e76-83bb-afd73c18db39")
+		)
+		(pin "1"
+			(uuid "c1cc760c-351c-4846-92af-a86ef29f133f")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "FB4")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
+					(reference "FB2")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
+					(reference "FB6")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
+					(reference "FB8")
 					(unit 1)
 				)
 			)
@@ -2557,7 +2485,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bca84d2-280b-48f9-9fbf-4e0d7d49a190")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR0103"
 			(at 41.91 92.71 0)
 			(effects
 				(font
@@ -2602,20 +2530,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2e47ea5-7564-4046-b019-b6a7aeaea887")
+			(uuid "224a97a0-5e47-4652-a935-284f67837e10")
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
-					(reference "#PWR018")
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
+					(reference "#PWR0103")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "#PWR029")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2675,7 +2607,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd7cf807-285b-4374-a5c7-1c338d366d3a")
+			(uuid "01a9febf-61e9-44b8-8aa5-a1fa196d9d10")
 		)
 		(instances
 			(project "JAS Warhead PCB"
@@ -2683,15 +2615,15 @@
 					(reference "#PWR014")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "#PWR020")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "#PWR031")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "#PWR042")
 					(unit 1)
 				)
@@ -2707,7 +2639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cdcad10-fede-4129-aa51-3592f348dea8")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 80.01 36.83 0)
 			(effects
 				(font
@@ -2754,38 +2686,42 @@
 			)
 		)
 		(pin "7"
-			(uuid "2db8d158-570f-4f15-a397-7558f510ad45")
+			(uuid "4991227c-9cdb-44cc-954e-646afd51f37c")
 		)
 		(pin "6"
-			(uuid "d2a20746-69fe-4082-827e-5ca5ffe11ce7")
+			(uuid "ea617bdf-eb06-4556-93cf-5fba35214ad4")
 		)
 		(pin "4"
-			(uuid "2523b9b2-03dc-4379-976e-392c737863ea")
+			(uuid "7ceabbda-bf43-4a93-8de8-f21cc5b2143a")
 		)
 		(pin "1"
-			(uuid "c520586e-9837-4dee-9060-39a452b5b7c4")
+			(uuid "f0f0f252-dd3f-4f2c-a388-a9d2a0a45100")
 		)
 		(pin "5"
-			(uuid "99b4e646-07e4-48fd-b68a-aa5fb5a9654e")
+			(uuid "f2036dd1-d893-4477-986f-f47c3c41f611")
 		)
 		(pin "2"
-			(uuid "b38d7017-bed4-406b-82fb-5a8927e30b1d")
+			(uuid "fcf98bf9-0730-4eef-8dfa-757e45ede6ba")
 		)
 		(pin "3"
-			(uuid "da1c8b4d-d196-4dfa-9194-bb1054bd2509")
+			(uuid "b16f6f42-c686-4963-aa0f-8184673ddac6")
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
-					(reference "U5")
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
+					(reference "U6")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "U7")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "U9")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2800,7 +2736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6768faff-d03b-4c1b-b5db-0ddee6713bb8")
-		(property "Reference" "C8"
+		(property "Reference" "C3"
 			(at 31.242 80.518 0)
 			(effects
 				(font
@@ -2846,27 +2782,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "9bea7e55-424f-44ec-9ea7-cb624ee78d66")
+			(uuid "0906814b-4fea-48f2-a39c-22f8119f5921")
 		)
 		(pin "1"
-			(uuid "98fd4c1a-1a22-4c96-8c3e-cacd62a15d5d")
+			(uuid "4bf2e850-d5e9-4f10-88e0-97b1142153b5")
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
-					(reference "C8")
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "C3")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "C13")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "C18")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2926,7 +2862,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e712c3c8-7d69-425f-ba07-18f8176c1130")
+			(uuid "6ec86a28-58b4-452a-bd31-ae9e2a5b80a0")
 		)
 		(instances
 			(project "JAS Warhead PCB"
@@ -2934,15 +2870,15 @@
 					(reference "#PWR010")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "#PWR023")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "#PWR034")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "#PWR045")
 					(unit 1)
 				)
@@ -2976,7 +2912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 54.3052 49.53 0)
 			(effects
 				(font
@@ -3004,23 +2940,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "17e43c55-62e3-4d70-ab1b-757054875102")
+			(uuid "0e44e21a-370e-4ca7-8039-03c7f5a188f5")
 		)
 		(pin "2"
-			(uuid "75c0c289-7dfe-4c4d-89e1-407bc945ed6c")
+			(uuid "1da9753e-01d9-474f-b147-1770805376d6")
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "C9")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "C14")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "C19")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3035,7 +2975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e2f61d8-57ac-4ee0-b34f-997196990af0")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0102"
 			(at 54.61 76.2 0)
 			(effects
 				(font
@@ -3080,20 +3020,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b2a4752-88e9-473f-9297-cc633d8519fc")
+			(uuid "1cf2e19d-96db-4873-9537-8ce24f93310c")
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
-					(reference "#PWR019")
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
+					(reference "#PWR0102")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "#PWR030")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3153,7 +3097,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "615ed68f-61b5-4dc5-bb36-c5250391850f")
+			(uuid "fcd86959-511c-44a9-8205-42ad6575abf5")
 		)
 		(instances
 			(project "JAS Warhead PCB"
@@ -3161,15 +3105,15 @@
 					(reference "#PWR012")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "#PWR027")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "#PWR038")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "#PWR049")
 					(unit 1)
 				)
@@ -3230,7 +3174,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0858a6a-ad28-44cb-8a37-bbe1da998491")
+			(uuid "0db31419-c3ea-4ec0-b839-273f61ab7bc4")
 		)
 		(instances
 			(project "JAS Warhead PCB"
@@ -3238,15 +3182,15 @@
 					(reference "#PWR011")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "#PWR026")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "#PWR037")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "#PWR048")
 					(unit 1)
 				)
@@ -3308,10 +3252,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6e39c1c9-80b5-4b47-990a-9a3b2b64234c")
+			(uuid "e8652bdc-a468-44b7-8a0e-be59641ac783")
 		)
 		(pin "1"
-			(uuid "96b041cf-c3d5-4ada-a987-b2747a16dfbf")
+			(uuid "d60ca525-a848-4d4c-8508-43fca3d0caa8")
 		)
 		(instances
 			(project "JAS Warhead PCB"
@@ -3319,15 +3263,15 @@
 					(reference "C4")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "C10")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "C15")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "C20")
 					(unit 1)
 				)
@@ -3361,7 +3305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0504_1310Metric"
 			(at 82.55 73.66 0)
 			(effects
 				(font
@@ -3389,10 +3333,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8a461cd7-434a-4932-a21a-fb7c580bc47a")
+			(uuid "0e2bbcda-0417-40bb-9c41-65163959f33e")
 		)
 		(pin "1"
-			(uuid "82d283a6-a2f3-40ec-95d6-f03816fce77c")
+			(uuid "9db644f6-5daa-4f1f-84ec-24ac0446d168")
 		)
 		(instances
 			(project "JAS Warhead PCB"
@@ -3400,15 +3344,15 @@
 					(reference "C7")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "C12")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "C17")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "C22")
 					(unit 1)
 				)
@@ -3423,10 +3367,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cb1843ee-2bbb-462e-ba64-4a9ca8788349")
 		(property "Reference" "J3"
-			(at 29.845 38.735 0)
+			(at 28.448 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3377,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 29.845 41.275 0)
+			(at 23.876 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,10 +3412,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "20bdb0c5-74f4-468a-a081-1129d02479f6")
+			(uuid "b6da5e92-148f-4711-8b1e-1cda628ded9b")
 		)
 		(pin "2"
-			(uuid "ba500aef-d4f3-4630-9cc3-5d03cb66443d")
+			(uuid "53433173-9423-44bd-b184-c490dbb9b620")
 		)
 		(instances
 			(project "JAS Warhead PCB"
@@ -3480,15 +3423,15 @@
 					(reference "J3")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "J4")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "J5")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "J6")
 					(unit 1)
 				)
@@ -3549,7 +3492,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a36e111b-b8e5-4aa0-9806-084ed004e51e")
+			(uuid "9e084088-35e1-4b14-9cbb-8c7d6e8a9f5c")
 		)
 		(instances
 			(project "JAS Warhead PCB"
@@ -3557,15 +3500,15 @@
 					(reference "#PWR016")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "#PWR025")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "#PWR036")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "#PWR047")
 					(unit 1)
 				)
@@ -3626,7 +3569,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7cfb8509-d09a-4232-861e-4cb07ec163b2")
+			(uuid "acf87d69-209f-4e16-8723-97a821146abb")
 		)
 		(instances
 			(project "JAS Warhead PCB"
@@ -3634,15 +3577,15 @@
 					(reference "#PWR013")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "#PWR021")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "#PWR032")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "#PWR043")
 					(unit 1)
 				)
@@ -3659,7 +3602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eeba828d-a591-4ddb-aff2-50135aa6e1a0")
-		(property "Reference" "R3"
+		(property "Reference" "R9"
 			(at 109.22 35.5599 0)
 			(effects
 				(font
@@ -3668,7 +3611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 109.22 38.0999 0)
 			(effects
 				(font
@@ -3705,23 +3648,107 @@
 			)
 		)
 		(pin "2"
-			(uuid "386d3acf-1c9b-4cfe-953c-ef8fe4e30dfd")
+			(uuid "dbf6ab45-4102-439a-ac91-632da28fc5fa")
 		)
 		(pin "1"
-			(uuid "a374f82e-e8c8-47e5-8eef-3fcd904a00f0")
+			(uuid "ac2bf35b-4021-4a7a-9420-04a360d560f7")
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
-					(reference "R3")
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
+					(reference "R9")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "R5")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "R7")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 41.91 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4386121-c96c-42fd-bc25-75af5c394d95")
+		(property "Reference" "FB9"
+			(at 41.8592 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 41.8592 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 41.91 41.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 41.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fcd05d61-6ba2-4d28-9d26-2af19a0f00cf")
+		)
+		(pin "1"
+			(uuid "947abacd-b583-4cd8-a0cf-75319659ebab")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
+					(reference "FB9")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
+					(reference "FB5")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
+					(reference "FB7")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -3781,7 +3808,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b65c063a-918a-4bf3-9c2d-043f79645b79")
+			(uuid "90536484-2d6d-4cc9-9264-f512041544d3")
 		)
 		(instances
 			(project "JAS Warhead PCB"
@@ -3789,15 +3816,15 @@
 					(reference "#PWR09")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "#PWR022")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "#PWR033")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "#PWR044")
 					(unit 1)
 				)
@@ -3858,7 +3885,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a22e0e99-3d25-4540-9b39-dd4dce962c82")
+			(uuid "fb691835-a73a-4dc6-8ec8-6611b33b62d0")
 		)
 		(instances
 			(project "JAS Warhead PCB"
@@ -3866,15 +3893,15 @@
 					(reference "#PWR015")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "#PWR024")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "#PWR035")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "#PWR046")
 					(unit 1)
 				)
@@ -3890,7 +3917,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc2bd6f7-44cc-46f5-8c20-eeab97ba7590")
-		(property "Reference" "1N1"
+		(property "Reference" "D9"
 			(at 116.84 37.338 0)
 			(effects
 				(font
@@ -3898,15 +3925,15 @@
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 119.126 39.624 0)
+		(property "Value" "1N4148"
+			(at 110.998 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 116.84 40.64 0)
 			(effects
 				(font
@@ -3952,23 +3979,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "c9459048-8765-4b43-a73d-4583d0458821")
+			(uuid "922f7730-1058-4885-b606-000754a1c636")
 		)
 		(pin "1"
-			(uuid "466fa161-23a6-46f7-be0c-3d781b30e5c8")
+			(uuid "2d85cf72-3357-4b34-8e03-d624be6b7f66")
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/f5b49db8-398e-4c1b-a83d-8b60cd2c4e46"
-					(reference "1N1")
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
+					(reference "D9")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/47bcc4bc-47b2-4774-9191-dc02bdfb246f"
-					(reference "1N3")
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
+					(reference "D5")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
-					(reference "1N5")
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "D3")
 					(unit 1)
 				)
 			)
