@@ -1940,6 +1940,16 @@
 		)
 		(uuid "fd0dbde7-7135-4d23-81aa-5160bf6d2608")
 	)
+	(text "\"Data Out\""
+		(exclude_from_sim no)
+		(at 130.556 43.942 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82678ea6-cd67-4535-a020-e9dfa3120c17")
+	)
 	(hierarchical_label "DO"
 		(shape input)
 		(at 120.65 43.18 0)

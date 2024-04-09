@@ -714,6 +714,25 @@
 			)
 		)
 	)
+	(text_box "Micro-USB"
+		(exclude_from_sim no)
+		(at 35.56 63.5 0)
+		(size 10.795 5.715)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f851aebb-6fdb-418c-9ad2-0ae91785132f")
+	)
 	(global_label "GND"
 		(shape input)
 		(at 43.18 76.2 270)
