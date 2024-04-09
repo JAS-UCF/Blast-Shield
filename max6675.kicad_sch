@@ -1940,7 +1940,7 @@
 		)
 		(uuid "fd0dbde7-7135-4d23-81aa-5160bf6d2608")
 	)
-	(hierarchical_label "DO"
+	(hierarchical_label "SO"
 		(shape input)
 		(at 120.65 43.18 0)
 		(fields_autoplaced yes)
@@ -2209,6 +2209,10 @@
 					(reference "#PWR039")
 					(unit 1)
 				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "#PWR017")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2283,6 +2287,10 @@
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
 					(reference "FB7")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "FB3")
 					(unit 1)
 				)
 			)
@@ -2618,6 +2626,10 @@
 					(reference "#PWR040")
 					(unit 1)
 				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "#PWR018")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2786,6 +2798,10 @@
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
 					(reference "U9")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3023,6 +3039,10 @@
 					(reference "C19")
 					(unit 1)
 				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "C9")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3094,6 +3114,10 @@
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
 					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3724,6 +3748,10 @@
 					(reference "R7")
 					(unit 1)
 				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "R3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3969,6 +3997,10 @@
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/1bf4faff-0fe0-485e-b99b-582bd0fd1695"
 					(reference "1N5")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "1N1")
 					(unit 1)
 				)
 			)

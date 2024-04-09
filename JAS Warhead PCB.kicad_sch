@@ -928,6 +928,16 @@
 		)
 		(uuid "a88ea421-e587-4689-b040-45dbea60c45e")
 	)
+	(text "Board Power"
+		(exclude_from_sim no)
+		(at 127.762 83.312 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6465659-0929-4992-b6db-34a8dd60ddcd")
+	)
 	(symbol
 		(lib_id "Regulator_Linear:LM7805_TO220")
 		(at 177.8 26.67 0)
@@ -1581,7 +1591,7 @@
 			)
 			(uuid "74d8ab0e-9d51-454c-8867-96dd9d2a5a2f")
 		)
-		(pin "DO" input
+		(pin "SO" input
 			(at 69.85 85.09 180)
 			(effects
 				(font
@@ -1649,7 +1659,7 @@
 			)
 			(uuid "3d3db73a-f560-4f3a-8f02-707445f7e30f")
 		)
-		(pin "DO" input
+		(pin "SO" input
 			(at 69.85 67.31 180)
 			(effects
 				(font
@@ -1696,6 +1706,276 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "D13" bidirectional
+			(at 53.34 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21f48372-eb76-4e23-a937-857bcf44a427")
+		)
+		(pin "D12" bidirectional
+			(at 53.34 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7c1cef8c-03bd-4dd9-80ab-503dfe535737")
+		)
+		(pin "D14" bidirectional
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "433fb048-8fa4-41e5-a90f-df438ea460ff")
+		)
+		(pin "D35" input
+			(at 53.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c4b4684f-5edc-4f6f-8e5c-380e955c5ef8")
+		)
+		(pin "D34" input
+			(at 53.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "353402a2-28b4-4e64-87d9-b2bbb8ac31ed")
+		)
+		(pin "VN" input
+			(at 53.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb6913a7-1589-4b23-b018-0bea3dd7999b")
+		)
+		(pin "VP" input
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0921e146-3b35-4f9d-ad4e-d576d09fbe9e")
+		)
+		(pin "EN" input
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bdd775b9-c95a-4d28-9853-aeb14fd2c69c")
+		)
+		(pin "D26" bidirectional
+			(at 53.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3381b765-ab95-421a-bdb8-9d442d5a3ecb")
+		)
+		(pin "D25" bidirectional
+			(at 53.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8b73826e-95cf-405e-82d7-b4a129a3de24")
+		)
+		(pin "D33" bidirectional
+			(at 53.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd180848-664a-4a5b-95f9-2f199fe5e611")
+		)
+		(pin "D32" bidirectional
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f34af13c-53e0-4515-a7b0-7c54fb680e39")
+		)
+		(pin "D27" bidirectional
+			(at 53.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5092c5f4-71d4-43b7-89b1-3d0129c1d99e")
+		)
+		(pin "D23" bidirectional
+			(at 27.94 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c5490db5-230c-41c5-ba87-da2f1c8b21d7")
+		)
+		(pin "D2" bidirectional
+			(at 27.94 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5d3b32a3-1e43-403f-aeff-110c74b3451d")
+		)
+		(pin "D4" bidirectional
+			(at 27.94 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fdf1cdd9-079c-41d9-b362-2749241676ed")
+		)
+		(pin "RX" bidirectional
+			(at 27.94 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7e416477-919d-44ef-93e0-5f53f8d13d38")
+		)
+		(pin "TX" bidirectional
+			(at 27.94 22.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f885ca11-e197-468d-bd26-3c0067cea416")
+		)
+		(pin "D22" bidirectional
+			(at 27.94 25.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "905644a1-648e-497f-b212-51983c95a505")
+		)
+		(pin "3.3V" output
+			(at 27.94 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42b70fe7-d723-49cd-afed-380d0578e305")
+		)
+		(pin "D15" bidirectional
+			(at 27.94 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6649ca11-6199-4783-9116-2231495bc759")
+		)
+		(pin "RX2" bidirectional
+			(at 27.94 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "020f0e29-5b1a-4d3a-ab91-32bfd8293883")
+		)
+		(pin "TX2" bidirectional
+			(at 27.94 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "09bb72e4-232a-4f19-842a-905e79a6a6f3")
+		)
+		(pin "D5" bidirectional
+			(at 27.94 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d931998-66a0-473f-b369-0d5e89d76692")
+		)
+		(pin "D18" bidirectional
+			(at 27.94 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa7a8105-ead9-40ad-b0a7-b843e0895a05")
+		)
+		(pin "D19" bidirectional
+			(at 27.94 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "27b3b745-0813-414c-95dc-13d060fabe41")
+		)
+		(pin "D21" bidirectional
+			(at 27.94 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cb8cf248-5126-43a6-a620-6fbba3990fd9")
 		)
 		(instances
 			(project "JAS Warhead PCB"
@@ -1755,7 +2035,7 @@
 			)
 			(uuid "7b42a2fc-7bff-4cc4-ad9a-7be7e41c7e74")
 		)
-		(pin "DO" input
+		(pin "SO" input
 			(at 69.85 29.21 180)
 			(effects
 				(font
@@ -1823,7 +2103,7 @@
 			)
 			(uuid "d5633988-02d3-4e1c-9da9-051e7dad0ae3")
 		)
-		(pin "DO" input
+		(pin "SO" input
 			(at 69.85 48.26 180)
 			(effects
 				(font

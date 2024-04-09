@@ -714,6 +714,503 @@
 			)
 		)
 	)
+	(global_label "+5V"
+		(shape input)
+		(at 46.99 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03045c22-d0c9-453e-aef3-b99d9d3dd0ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.99 36.3243 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 49.53 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4525b447-b258-4974-98fe-696eeec96843")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 71.6257 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 49.53 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cefddb72-e4e4-4d92-af5d-93829437b070")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 36.3243 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "D5"
+		(shape bidirectional)
+		(at 64.77 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02bb9cf8-2593-48d0-8983-df8c0b9c6774")
+	)
+	(hierarchical_label "D2"
+		(shape bidirectional)
+		(at 54.61 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "056a13a2-5b40-4193-9cb1-48d640efa1c1")
+	)
+	(hierarchical_label "D22"
+		(shape bidirectional)
+		(at 80.01 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c05f116-8185-46a8-910f-beefc1614810")
+	)
+	(hierarchical_label "D19"
+		(shape bidirectional)
+		(at 69.85 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1edca12c-f46e-457c-bc7a-3a9f9ef843a2")
+	)
+	(hierarchical_label "D4"
+		(shape bidirectional)
+		(at 57.15 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25c9e6e6-7c2e-4fd4-a680-8e3eb8a43c93")
+	)
+	(hierarchical_label "D34"
+		(shape input)
+		(at 74.93 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2dc66897-c284-457f-9e83-838a4a2e43fb")
+	)
+	(hierarchical_label "D23"
+		(shape bidirectional)
+		(at 82.55 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d79b901-af6b-46a8-b990-fe84d218e519")
+	)
+	(hierarchical_label "TX2"
+		(shape bidirectional)
+		(at 62.23 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59f05a8e-de32-457f-affc-58b1dba9d86d")
+	)
+	(hierarchical_label "RX"
+		(shape bidirectional)
+		(at 74.93 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6186d4a1-4ff5-44d5-b28b-16853330a5eb")
+	)
+	(hierarchical_label "RX2"
+		(shape bidirectional)
+		(at 59.69 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65c0908f-14fd-4b29-b80d-1634c23c887f")
+	)
+	(hierarchical_label "D12"
+		(shape bidirectional)
+		(at 54.61 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65ea33c5-13d8-4be4-9f05-c324726b1026")
+	)
+	(hierarchical_label "D18"
+		(shape bidirectional)
+		(at 67.31 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66b46a5b-54d5-434d-b1d6-d010471b2474")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 82.55 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73f20bcb-6700-462f-b905-3068d6403642")
+	)
+	(hierarchical_label "TX"
+		(shape bidirectional)
+		(at 77.47 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a7d22bf-301e-471f-8bdb-32c234ad0d7b")
+	)
+	(hierarchical_label "D32"
+		(shape bidirectional)
+		(at 69.85 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93190c6f-7c68-4aac-877c-8b64e318c84b")
+	)
+	(hierarchical_label "3.3V"
+		(shape output)
+		(at 46.99 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a19b4ec9-4ecc-4ecf-a3c8-3ee1f106b947")
+	)
+	(hierarchical_label "D25"
+		(shape bidirectional)
+		(at 64.77 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1a4be8b-2068-4697-88e7-474d000defab")
+	)
+	(hierarchical_label "D14"
+		(shape bidirectional)
+		(at 57.15 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b427690a-ee5c-4831-9784-67d479e05262")
+	)
+	(hierarchical_label "VN"
+		(shape input)
+		(at 77.47 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6cc2bbe-2b60-4029-ab0a-0a08af9343f1")
+	)
+	(hierarchical_label "D26"
+		(shape bidirectional)
+		(at 62.23 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb93782c-f0b6-470d-9ef7-79628150f286")
+	)
+	(hierarchical_label "D33"
+		(shape bidirectional)
+		(at 67.31 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf42de8d-58f1-40a2-a4ee-f1dc706e6764")
+	)
+	(hierarchical_label "D13"
+		(shape bidirectional)
+		(at 52.07 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c82eb387-47d9-4e60-aa92-13992a2dd9d0")
+	)
+	(hierarchical_label "D27"
+		(shape bidirectional)
+		(at 59.69 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d032c56c-9df4-4495-abb3-858a362d5fd2")
+	)
+	(hierarchical_label "D15"
+		(shape bidirectional)
+		(at 52.07 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3d191a8-f3b5-4d8c-8d83-b77d0c71db92")
+	)
+	(hierarchical_label "D35"
+		(shape input)
+		(at 72.39 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed663ed0-9148-4184-8a76-868b84249c25")
+	)
+	(hierarchical_label "VP"
+		(shape input)
+		(at 80.01 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f275848b-7072-4813-95c1-b48f1bcd8091")
+	)
+	(hierarchical_label "D21"
+		(shape bidirectional)
+		(at 72.39 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd82e1c7-158b-4f3b-ba1a-d4e2d3301e78")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x15_Socket")
+		(at 64.77 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15595045-8cb9-442b-bde3-195cafb65d9d")
+		(property "Reference" "J2"
+			(at 64.516 55.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x15_Socket"
+			(at 64.77 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "1628c49b-6c64-4c02-84e2-35e32d3c9a26")
+		)
+		(pin "4"
+			(uuid "7f3f9ec2-79a3-446f-a0d8-988597e999b6")
+		)
+		(pin "9"
+			(uuid "44269643-175d-4197-af8a-c77e74784d69")
+		)
+		(pin "3"
+			(uuid "09586ccb-a0f0-44cb-ae1c-da14ac184717")
+		)
+		(pin "12"
+			(uuid "9946b861-3394-489f-84b9-401185d20185")
+		)
+		(pin "5"
+			(uuid "7a1e0e0a-19e3-44e7-a612-eccfa73443c5")
+		)
+		(pin "14"
+			(uuid "4805481c-3fd2-44c6-b20b-ae5219d52de6")
+		)
+		(pin "6"
+			(uuid "87bc28f1-bea7-46b0-90ee-52022fd9ab81")
+		)
+		(pin "11"
+			(uuid "a352faf7-99e9-4837-8e9a-9f1601d9610c")
+		)
+		(pin "8"
+			(uuid "b791d9b5-eeb9-493b-9cb6-431a8f615fd2")
+		)
+		(pin "13"
+			(uuid "7f7f4ce4-b076-4138-a02b-4ec35db90017")
+		)
+		(pin "1"
+			(uuid "0a7859ae-cd43-4cd5-807a-90a6554f0a8f")
+		)
+		(pin "10"
+			(uuid "22777a55-967a-4a51-990d-1e8010f054c8")
+		)
+		(pin "2"
+			(uuid "7edde4b2-8f3c-4acd-99e9-dfb6a2705e88")
+		)
+		(pin "7"
+			(uuid "bc80c15d-6cff-40b7-90d3-f0f5502620ce")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/e02061e8-dea8-4b91-abef-2bf744ccc8cc"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x15_Socket")
 		(at 64.77 48.26 270)
@@ -722,10 +1219,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "822da5bb-05ad-4d41-ae88-43545fdc5c13")
 		(property "Reference" "J1"
-			(at 64.77 50.8 90)
+			(at 65.024 52.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,6 +1234,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
@@ -816,113 +1313,6 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/e02061e8-dea8-4b91-abef-2bf744ccc8cc"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x15_Socket")
-		(at 64.77 60.325 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afd3d004-ae29-4ad1-89a9-1c71e397563d")
-		(property "Reference" "J2"
-			(at 64.77 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x15_Socket"
-			(at 64.77 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
-			(at 64.77 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "15"
-			(uuid "7b44a375-ddff-4476-837d-4f1302ceb41e")
-		)
-		(pin "4"
-			(uuid "51d95b05-82fc-4446-a95f-a40b1d599d8d")
-		)
-		(pin "9"
-			(uuid "2d810f28-f619-4874-9f64-b927f0fcf280")
-		)
-		(pin "3"
-			(uuid "fff137bf-dd47-47bd-9e13-32c34d6be202")
-		)
-		(pin "12"
-			(uuid "dfaaa16d-56d7-4e35-b7ea-ab3ea68de2f6")
-		)
-		(pin "5"
-			(uuid "7aefca65-4e5b-4fe7-89e7-b55a3618bcd7")
-		)
-		(pin "14"
-			(uuid "91e14789-4741-498d-b9be-5ef5db5e4601")
-		)
-		(pin "6"
-			(uuid "4c0dcdab-3fd1-4b8a-bb52-7a221d364fcd")
-		)
-		(pin "11"
-			(uuid "6cdc3eb1-a056-46ee-a1ef-fd9ccff2a493")
-		)
-		(pin "8"
-			(uuid "79296227-ab12-44cc-98b2-9841116de1da")
-		)
-		(pin "13"
-			(uuid "7f33770b-0ed6-4a1e-afed-680e8b6361bf")
-		)
-		(pin "1"
-			(uuid "e0ab45b7-df19-4b90-a867-87ee69b0fd1c")
-		)
-		(pin "10"
-			(uuid "cd30cc20-811f-4620-a627-971322d898ee")
-		)
-		(pin "2"
-			(uuid "3df3dbf7-3c6e-4088-ac56-247543b2ea46")
-		)
-		(pin "7"
-			(uuid "a794f47e-6403-4e50-a891-db9b512c5603")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/e02061e8-dea8-4b91-abef-2bf744ccc8cc"
-					(reference "J2")
 					(unit 1)
 				)
 			)
