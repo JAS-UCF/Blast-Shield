@@ -20178,7 +20178,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J13"
-			(at 0 -2.33 270)
+			(at 0 -2.33 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8222f739-8093-4a25-a598-47f359813bab")
@@ -20190,7 +20190,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 0 4.87 270)
+			(at 0 4.87 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3a3c9dd0-f75c-471e-bb35-33b23bba8e89")
@@ -20393,7 +20393,7 @@
 			(uuid "9fc3c0d0-957d-47a7-a635-6e40273063bc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 360)
+			(at 0 1.27 0)
 			(layer "F.Fab")
 			(uuid "d728f1dd-2936-4887-acd3-9d66673f7b46")
 			(effects
@@ -20656,7 +20656,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J12"
-			(at 0 -2.33 270)
+			(at 0 -2.33 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8c9832f1-fa77-4271-bcee-6c4f40f8cf29")
@@ -20668,7 +20668,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 0 4.87 270)
+			(at 0 4.87 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6a026e99-852c-4bd8-a190-58b115056cfe")
@@ -20871,7 +20871,7 @@
 			(uuid "326cfe2c-5a91-49b8-af03-adc9e201641e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 360)
+			(at 0 1.27 0)
 			(layer "F.Fab")
 			(uuid "b532e73b-85d8-4167-a908-fe317b444837")
 			(effects
@@ -34951,7 +34951,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J14"
-			(at 0 -2.33 270)
+			(at 0 -2.33 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "01df39df-99ef-42fc-86b2-b2fbdd664377")
@@ -34963,7 +34963,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 0 4.87 270)
+			(at 0 4.87 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "03a12248-db83-4220-bdf1-9f14fa98c358")
@@ -35166,7 +35166,7 @@
 			(uuid "edbc562d-c480-4d4c-966b-db5d84278fc6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 360)
+			(at 0 1.27 0)
 			(layer "F.Fab")
 			(uuid "6509302a-7846-4301-a2b0-3f9322dc9bfc")
 			(effects
