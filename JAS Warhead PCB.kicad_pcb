@@ -14816,6 +14816,7 @@
 		(property "Value" "Conn_01x15_Socket"
 			(at 0 38.33 -90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "dbc30e64-6fd4-49d0-aa8c-83e5ed5b1db1")
 			(effects
 				(font
@@ -33266,6 +33267,7 @@
 		(property "Value" "Conn_01x15_Socket"
 			(at 0 38.33 -90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6c3b5235-d52f-4f1b-b72d-84293a583d57")
 			(effects
 				(font
@@ -55325,7 +55327,7 @@
 		)
 	)
 	(group ""
-		(uuid "7ba70b1b-148e-4067-b5bc-a230865b2597")
+		(uuid "da0867e9-a4d7-4f50-806d-db559a2ebcc4")
 		(members "0c8c332d-033f-4f23-ad6a-979476a03a41" "675b784c-8b87-4856-8899-4d250ccd44f5")
 	)
 )
