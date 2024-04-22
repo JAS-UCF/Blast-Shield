@@ -713,126 +713,6 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -1201,7 +1081,7 @@
 		)
 		(uuid "558ae583-2433-429e-b2e9-25cc90986246")
 	)
-	(hierarchical_label "D21"
+	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 66.04 76.2 270)
 		(fields_autoplaced yes)
@@ -1321,7 +1201,7 @@
 		)
 		(uuid "b7f35d91-e621-4e60-a389-a34fa4252301")
 	)
-	(hierarchical_label "D22"
+	(hierarchical_label "SCL"
 		(shape bidirectional)
 		(at 73.66 76.2 270)
 		(fields_autoplaced yes)
@@ -1356,6 +1236,18 @@
 			(justify left)
 		)
 		(uuid "e3c81d11-b42b-4a45-9357-dffddde4fce3")
+	)
+	(hierarchical_label "3V3"
+		(shape bidirectional)
+		(at 40.64 76.2 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9ae9008-bcb8-482b-b7ef-2814972590d7")
 	)
 	(hierarchical_label "RX2"
 		(shape bidirectional)
@@ -1785,71 +1677,6 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/e02061e8-dea8-4b91-abef-2bf744ccc8cc"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 40.64 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ff7b3ec-904f-493d-a449-a569229f66c3")
-		(property "Reference" "#PWR050"
-			(at 40.64 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 37.338 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 40.64 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f761158d-6f6e-43cc-9f34-7661a4cc576e")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/e02061e8-dea8-4b91-abef-2bf744ccc8cc"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)

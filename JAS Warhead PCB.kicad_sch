@@ -11,6 +11,166 @@
 		(company "Jet & Aeronatucs Society")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016) hide)
@@ -1733,6 +1893,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 96.52) (xy 243.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01fdeee4-b6e7-41eb-ac8b-10fb75a85854")
+	)
+	(wire
+		(pts
 			(xy 209.55 151.13) (xy 209.55 153.67)
 		)
 		(stroke
@@ -1760,6 +1930,16 @@
 			(type default)
 		)
 		(uuid "0c6dbe80-e815-40d4-94ef-83f8a770f34b")
+	)
+	(wire
+		(pts
+			(xy 267.97 109.22) (xy 267.97 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd628d8-d3a1-49db-9125-5cffe0f45e66")
 	)
 	(wire
 		(pts
@@ -1853,6 +2033,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 93.98) (xy 243.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2efc1b88-8668-4b68-89aa-4552a52f1ff3")
+	)
+	(wire
+		(pts
 			(xy 270.51 151.13) (xy 260.35 151.13)
 		)
 		(stroke
@@ -1893,6 +2083,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 106.68) (xy 261.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4191f6f9-d924-4329-9f2a-6cd99e8992c1")
+	)
+	(wire
+		(pts
 			(xy 54.61 144.78) (xy 52.07 144.78)
 		)
 		(stroke
@@ -1930,6 +2130,16 @@
 			(type default)
 		)
 		(uuid "4d577221-38ef-4d91-b629-b048860217d0")
+	)
+	(wire
+		(pts
+			(xy 238.76 109.22) (xy 243.84 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d006b8-c165-47d3-9c35-2a32163949c2")
 	)
 	(wire
 		(pts
@@ -2033,6 +2243,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 49.53) (xy 58.42 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72bbafeb-dec2-4e98-ab0f-fcdb81f47406")
+	)
+	(wire
+		(pts
 			(xy 93.98 156.21) (xy 105.41 156.21)
 		)
 		(stroke
@@ -2050,6 +2270,16 @@
 			(type default)
 		)
 		(uuid "746fb8f1-07e2-48b6-a4ce-89021e157416")
+	)
+	(wire
+		(pts
+			(xy 19.05 38.1) (xy 27.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a29bbce-1c4e-4f49-b11d-3a32519c64d6")
 	)
 	(wire
 		(pts
@@ -2083,6 +2313,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 109.22) (xy 261.62 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81cb2dd7-ff73-45be-a2c5-1a0b7630f238")
+	)
+	(wire
+		(pts
 			(xy 80.01 29.21) (xy 92.71 29.21)
 		)
 		(stroke
@@ -2100,6 +2340,16 @@
 			(type default)
 		)
 		(uuid "8ad1e7d0-3f1f-445c-8436-19f944ae2597")
+	)
+	(wire
+		(pts
+			(xy 19.05 53.34) (xy 27.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1085a4-7085-46ff-bd75-229826f489e4")
 	)
 	(wire
 		(pts
@@ -2163,16 +2413,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 38.1) (xy 27.94 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeae3719-6fd5-477d-b6b2-f5c3d4741eb7")
-	)
-	(wire
-		(pts
 			(xy 260.35 148.59) (xy 260.35 146.05)
 		)
 		(stroke
@@ -2180,6 +2420,16 @@
 			(type default)
 		)
 		(uuid "af142a02-cf87-4f98-8f5e-fe833b47c454")
+	)
+	(wire
+		(pts
+			(xy 53.34 46.99) (xy 58.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2bf74c8-ca3f-4bf4-9e25-2199269b93f3")
 	)
 	(wire
 		(pts
@@ -2290,6 +2540,16 @@
 			(type default)
 		)
 		(uuid "c9bea82b-a30c-4bec-b7ff-309919715327")
+	)
+	(wire
+		(pts
+			(xy 238.76 106.68) (xy 243.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb51ab26-b26a-4778-be66-f22e45119dee")
 	)
 	(wire
 		(pts
@@ -2895,6 +3155,16 @@
 		)
 		(uuid "19fe4105-7ebe-48dd-8e48-f9ec3c5d2436")
 	)
+	(text "Test Points & External Connectivity"
+		(exclude_from_sim no)
+		(at 248.92 86.106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "47d1af6f-6952-42da-91b1-cb4e9ec10095")
+	)
 	(text "Water Temp Sense (Thermister)\n\nChange R15 & R16 to desired values for thermister"
 		(exclude_from_sim no)
 		(at 256.032 129.286 0)
@@ -3077,6 +3347,17 @@
 		)
 		(uuid "56a5b0bf-85ad-48eb-95ad-b3e781328190")
 	)
+	(label "3V3"
+		(at 19.05 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a7d4f85-d814-4f9e-99d8-5467a771743f")
+	)
 	(label "RELAY1"
 		(at 20.32 58.42 0)
 		(fields_autoplaced yes)
@@ -3087,6 +3368,17 @@
 			(justify left bottom)
 		)
 		(uuid "6fe75c24-95e3-4ee7-b8f8-1b215266d0d7")
+	)
+	(label "SCL"
+		(at 243.84 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7408e756-9ffb-43b8-99d4-619d77ce1ff7")
 	)
 	(label "CS2"
 		(at 87.63 43.18 0)
@@ -3110,6 +3402,17 @@
 		)
 		(uuid "970075c5-4c67-46ec-8ae0-213254755d5c")
 	)
+	(label "SCL"
+		(at 58.42 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e86f10c-dc76-475c-8d21-88f42b1071df")
+	)
 	(label "SPI Data_In"
 		(at 66.04 24.13 180)
 		(fields_autoplaced yes)
@@ -3131,6 +3434,17 @@
 			(justify right bottom)
 		)
 		(uuid "afafddad-8d19-4582-ad15-f5126550bf51")
+	)
+	(label "SDA"
+		(at 243.84 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bdca8ebf-bbaa-470a-ad50-b3bc6924b7bd")
 	)
 	(label "RELAY2"
 		(at 20.32 63.5 0)
@@ -3165,6 +3479,17 @@
 		)
 		(uuid "ce35edde-dc1e-466e-a93b-b13575166485")
 	)
+	(label "SDA"
+		(at 58.42 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5aa6d1c-a3b5-43cf-a75c-4d2fd37862b6")
+	)
 	(label "SPI Data_In"
 		(at 80.01 48.26 0)
 		(fields_autoplaced yes)
@@ -3197,6 +3522,17 @@
 			(justify right bottom)
 		)
 		(uuid "de834edc-d73e-45e5-9eb1-42b4ad974214")
+	)
+	(label "3V3"
+		(at 269.24 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed6d7d55-f842-48fd-bcf7-c0aaee7f7e95")
 	)
 	(label "CS1"
 		(at 58.42 29.21 180)
@@ -3233,7 +3569,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 60.96 0)
+		(at 151.13 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3241,7 +3577,7 @@
 		(dnp no)
 		(uuid "02ce2c6b-8dcd-49ab-90bd-72023c59c012")
 		(property "Reference" "#PWR053"
-			(at 191.77 67.31 0)
+			(at 151.13 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,7 +3586,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 64.77 0)
+			(at 151.13 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,7 +3594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 60.96 0)
+			(at 151.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3267,7 +3603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 60.96 0)
+			(at 151.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +3612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 60.96 0)
+			(at 151.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3634,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 73.66 0)
+		(at 151.13 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3306,7 +3642,7 @@
 		(dnp no)
 		(uuid "05aa53d9-3ab4-4845-80d2-43e765fe375a")
 		(property "Reference" "#PWR051"
-			(at 191.77 80.01 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,7 +3651,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 77.47 0)
+			(at 151.13 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +3659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 73.66 0)
+			(at 151.13 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +3668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 73.66 0)
+			(at 151.13 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,7 +3677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 73.66 0)
+			(at 151.13 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3699,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 60.96 0)
+		(at 175.26 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3371,7 +3707,7 @@
 		(dnp no)
 		(uuid "063fa990-c4db-4175-825c-e5b03ac0a024")
 		(property "Reference" "#PWR054"
-			(at 215.9 67.31 0)
+			(at 175.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3716,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 64.516 0)
+			(at 175.26 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 60.96 0)
+			(at 175.26 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,7 +3733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 60.96 0)
+			(at 175.26 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,7 +3742,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 60.96 0)
+			(at 175.26 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +3967,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 73.66 0)
+		(at 175.26 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3639,7 +3975,7 @@
 		(dnp no)
 		(uuid "156c2d3e-9c40-44ac-8bfb-8d8a0ce2324e")
 		(property "Reference" "#PWR052"
-			(at 215.9 80.01 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3984,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 77.216 0)
+			(at 175.26 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,7 +3992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 73.66 0)
+			(at 175.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,7 +4001,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 73.66 0)
+			(at 175.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,7 +4010,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 73.66 0)
+			(at 175.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,7 +4337,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 215.9 71.12 0)
+		(at 175.26 64.77 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4010,7 +4346,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e416385-94bf-47ee-91ca-c68c0ce18ce7")
 		(property "Reference" "H3"
-			(at 218.44 68.5799 0)
+			(at 177.8 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +4355,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 218.44 71.1199 0)
+			(at 177.8 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4364,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
-			(at 215.9 71.12 0)
+			(at 175.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +4373,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 71.12 0)
+			(at 175.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,7 +4382,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 215.9 71.12 0)
+			(at 175.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,7 +4808,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 191.77 71.12 0)
+		(at 151.13 64.77 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4481,7 +4817,7 @@
 		(fields_autoplaced yes)
 		(uuid "46025fe2-89b3-4663-8619-b8e8f2526bc1")
 		(property "Reference" "H2"
-			(at 194.31 68.5799 0)
+			(at 153.67 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4826,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 194.31 71.1199 0)
+			(at 153.67 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4835,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
-			(at 191.77 71.12 0)
+			(at 151.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4844,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 71.12 0)
+			(at 151.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4853,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 191.77 71.12 0)
+			(at 151.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +4940,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 191.77 58.42 0)
+		(at 151.13 52.07 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4613,7 +4949,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b4d7f9f-eea8-4bc9-9e10-589884431647")
 		(property "Reference" "H1"
-			(at 194.31 55.8799 0)
+			(at 153.67 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +4958,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 194.31 58.4199 0)
+			(at 153.67 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +4967,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
-			(at 191.77 58.42 0)
+			(at 151.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +4976,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 58.42 0)
+			(at 151.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +4985,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 191.77 58.42 0)
+			(at 151.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,6 +5067,205 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 256.54 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "604dcdf1-1893-4a6b-87d0-56a944019af5")
+		(property "Reference" "J14"
+			(at 256.54 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 256.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 256.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 256.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53149aea-2a18-423a-86cb-c6c4f9785ea3")
+		)
+		(pin "1"
+			(uuid "17b469f4-c8f3-4bc0-9480-be887680d557")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 243.84 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62f7dd85-a66b-4067-b870-4e82cf745b5c")
+		(property "Reference" "#PWR066"
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 243.84 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "824a2712-435a-4db9-bcfd-8be8aaf6ddd3")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 233.68 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67c7f6f4-e0ca-456b-9756-9ca4045a2066")
+		(property "Reference" "J12"
+			(at 233.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 233.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 233.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 233.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6f8a313-120a-42ec-9940-44c0c005c052")
+		)
+		(pin "1"
+			(uuid "97cae918-826c-4145-98eb-fa71e10a5870")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -4864,6 +5399,71 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6df41bc7-7841-4370-bf03-52722ba06b80")
+		(property "Reference" "#PWR065"
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81036e95-ed0a-4d81-9edf-b89901bc5b86")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5072,7 +5672,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 215.9 58.42 0)
+		(at 175.26 52.07 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5081,7 +5681,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f55c1cd-2b9e-4162-9b1b-355a88325bc9")
 		(property "Reference" "H4"
-			(at 218.44 55.8799 0)
+			(at 177.8 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +5690,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 218.44 58.4199 0)
+			(at 177.8 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +5699,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
-			(at 215.9 58.42 0)
+			(at 175.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +5708,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 58.42 0)
+			(at 175.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5717,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 215.9 58.42 0)
+			(at 175.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5755,6 +6355,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 233.68 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf030a05-25ed-41bf-96e3-06e2a923e5fe")
+		(property "Reference" "J13"
+			(at 233.68 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 233.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 233.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de4f0548-a6ae-4498-bff3-f7e02ab5ef35")
+		)
+		(pin "1"
+			(uuid "a344ee5c-8b58-4e03-8202-1a9d5dac3e3d")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 185.42 0)
 		(unit 1)
@@ -6164,6 +6831,71 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0c2afcb-c09b-4e6d-91ac-1f6155d5af52")
+		(property "Reference" "#PWR067"
+			(at 243.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e659e7c-85ee-4b01-9f41-c8e5065e7253")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -6585,16 +7317,6 @@
 			)
 			(uuid "eed73628-ed91-4e13-b9bc-a14b9b21a92e")
 		)
-		(pin "D22" bidirectional
-			(at 27.94 38.1 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "492c2607-d6e5-48a3-a964-af249880091d")
-		)
 		(pin "D23" bidirectional
 			(at 53.34 24.13 0)
 			(effects
@@ -6755,16 +7477,6 @@
 			)
 			(uuid "b349aa43-5b42-4998-b920-5b5e4c663188")
 		)
-		(pin "D21" bidirectional
-			(at 27.94 60.96 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "13b4bf86-9fd1-4790-b0a2-01cf9d1901be")
-		)
 		(pin "D4" bidirectional
 			(at 27.94 58.42 180)
 			(effects
@@ -6785,18 +7497,8 @@
 			)
 			(uuid "7438aac3-abad-471f-b8a5-3293eb030ac0")
 		)
-		(pin "3.3V" output
-			(at 27.94 53.34 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "938c89e9-b3da-4b9d-a95e-ccebab429838")
-		)
 		(pin "D15" bidirectional
-			(at 27.94 50.8 180)
+			(at 27.94 38.1 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,6 +7506,36 @@
 				(justify left)
 			)
 			(uuid "c1fcde62-4166-4aa4-8d79-63448e534bab")
+		)
+		(pin "SCL" bidirectional
+			(at 53.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "81b27b59-3a1a-413d-9c61-607398ed89ac")
+		)
+		(pin "SDA" bidirectional
+			(at 53.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e37ee82f-5ec1-456e-8a28-88ba5b7b0670")
+		)
+		(pin "3V3" bidirectional
+			(at 27.94 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "401e473a-6f91-4870-ae66-b1a43ddb8f8c")
 		)
 		(instances
 			(project "JAS Warhead PCB"
