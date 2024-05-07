@@ -484,7 +484,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "GERBER/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "JAS Warhead PCB.step",
