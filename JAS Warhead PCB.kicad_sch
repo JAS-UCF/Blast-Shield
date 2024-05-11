@@ -5896,7 +5896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2816_7142Metric"
 			(at 31.75 168.402 90)
 			(effects
 				(font
@@ -6729,7 +6729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2816_7142Metric"
 			(at 97.79 170.942 90)
 			(effects
 				(font
