@@ -3880,6 +3880,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "20"
+			(at 177.8 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "3412bcc5-584b-4103-96f4-5f42d5493ac5")
 		)
@@ -3923,7 +3932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 99.06 185.42 0)
 			(effects
 				(font
@@ -3942,6 +3951,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 99.06 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "10"
 			(at 99.06 185.42 0)
 			(effects
 				(font
@@ -4101,6 +4119,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "6"
+			(at 31.75 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9ab17e80-416e-4f78-8138-6981165a6989")
 		)
@@ -4163,6 +4190,15 @@
 			)
 		)
 		(property "Description" "12V DC, Standard, 22A, Contact Gap 1.5mm, ALFG_FormA"
+			(at 44.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "13"
 			(at 44.45 161.29 0)
 			(effects
 				(font
@@ -4247,6 +4283,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "14"
+			(at 41.91 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "185cc6d8-232a-460b-9e74-93078a128294")
 		)
@@ -4320,6 +4365,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "18"
+			(at 260.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4c5ac3d-e499-4227-9185-3fd9ca0dd060")
 		)
@@ -4382,6 +4436,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 175.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "9"
 			(at 175.26 64.77 0)
 			(effects
 				(font
@@ -4522,6 +4585,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "18"
+			(at 260.35 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55d65bac-49fa-4d5c-9f3d-5c32298968b5")
 		)
@@ -4583,6 +4655,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 166.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "1"
 			(at 166.37 33.02 0)
 			(effects
 				(font
@@ -4653,6 +4734,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 209.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "18"
 			(at 209.55 157.48 0)
 			(effects
 				(font
@@ -4861,6 +4951,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "9"
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6184ed3a-b4f1-44a3-8944-e14a55d87fec")
 		)
@@ -4993,6 +5092,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "9"
+			(at 151.13 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70e336da-fb94-4d97-9b4a-aa5e3d4382a1")
 		)
@@ -5049,6 +5157,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "15"
 			(at 48.26 137.16 0)
 			(effects
 				(font
@@ -5116,6 +5233,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 256.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "12"
 			(at 256.54 106.68 0)
 			(effects
 				(font
@@ -5256,6 +5382,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "12"
+			(at 233.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e6f8a313-120a-42ec-9940-44c0c005c052")
 		)
@@ -5362,7 +5497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 248.92 39.37 0)
 			(effects
 				(font
@@ -5381,6 +5516,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "10"
 			(at 248.92 39.37 0)
 			(effects
 				(font
@@ -5586,6 +5730,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "15"
+			(at 114.3 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a46aa1f0-58bd-410a-8491-671044d5fb29")
 		)
@@ -5647,6 +5800,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 189.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "2"
 			(at 189.23 33.02 0)
 			(effects
 				(font
@@ -5717,6 +5879,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 175.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "9"
 			(at 175.26 52.07 0)
 			(effects
 				(font
@@ -5827,7 +5998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 198.12 151.13 0)
 			(effects
 				(font
@@ -5846,6 +6017,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 198.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "10"
 			(at 198.12 151.13 0)
 			(effects
 				(font
@@ -5923,6 +6103,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "17"
+			(at 31.75 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0248160c-25d2-4709-ac13-4a9135197eee")
 		)
@@ -5963,7 +6152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 248.92 151.13 0)
 			(effects
 				(font
@@ -5982,6 +6171,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "10"
 			(at 248.92 151.13 0)
 			(effects
 				(font
@@ -6052,6 +6250,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 209.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "18"
 			(at 209.55 142.24 0)
 			(effects
 				(font
@@ -6195,6 +6402,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "13"
+			(at 110.49 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A2"
 			(uuid "df65c7ef-f358-4deb-bebf-fd56e3157e8d")
 		)
@@ -6263,6 +6479,15 @@
 			)
 		)
 		(property "Description" "1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"
+			(at 107.95 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "14"
 			(at 107.95 144.78 0)
 			(effects
 				(font
@@ -6398,6 +6623,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 233.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "12"
 			(at 233.68 93.98 0)
 			(effects
 				(font
@@ -6687,6 +6921,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "6"
+			(at 97.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0583989e-3bd8-4b66-82ab-9ccd808d618e")
 		)
@@ -6748,6 +6991,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 97.79 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "17"
 			(at 97.79 172.72 0)
 			(effects
 				(font
@@ -6991,7 +7243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical"
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 33.02 182.88 0)
 			(effects
 				(font
@@ -7010,6 +7262,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 33.02 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "10"
 			(at 33.02 182.88 0)
 			(effects
 				(font

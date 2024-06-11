@@ -2041,6 +2041,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "16"
+			(at 106.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cf68835b-7ebc-4090-ab73-230ef160b643")
 		)
@@ -2114,6 +2123,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
+			(at 72.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "4"
 			(at 72.39 73.66 0)
 			(effects
 				(font
@@ -2279,6 +2297,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "19"
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "515ca8f3-7d1e-4f23-9909-d840aed5a294")
 		)
@@ -2379,6 +2406,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "7"
+			(at 116.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d1a667ba-53e4-4844-9153-3cf833ef7805")
 		)
@@ -2451,6 +2487,15 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "8"
 			(at 41.91 52.07 0)
 			(effects
 				(font
@@ -2695,6 +2740,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "21"
+			(at 74.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "4991227c-9cdb-44cc-954e-646afd51f37c")
 		)
@@ -2783,6 +2837,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 30.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "3"
 			(at 30.48 82.55 0)
 			(effects
 				(font
@@ -2941,6 +3004,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 53.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "5"
 			(at 53.34 45.72 0)
 			(effects
 				(font
@@ -3261,6 +3333,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "3"
+			(at 53.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e8652bdc-a468-44b7-8a0e-be59641ac783")
 		)
@@ -3342,6 +3423,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "4"
+			(at 82.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e2bbcda-0417-40bb-9c41-65163959f33e")
 		)
@@ -3394,7 +3484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 29.21 46.99 0)
 			(effects
 				(font
@@ -3413,6 +3503,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 29.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "10"
 			(at 29.21 46.99 0)
 			(effects
 				(font
@@ -3657,6 +3756,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "16"
+			(at 106.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dbf6ab45-4102-439a-ac91-632da28fc5fa")
 		)
@@ -3729,6 +3837,15 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
+			(at 41.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "8"
 			(at 41.91 39.37 0)
 			(effects
 				(font
@@ -3980,6 +4097,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 116.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "7"
 			(at 116.84 40.64 0)
 			(effects
 				(font

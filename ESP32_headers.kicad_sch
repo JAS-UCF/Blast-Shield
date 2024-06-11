@@ -1456,6 +1456,15 @@
 				(hide yes)
 			)
 		)
+		(property "Item #" "11"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "15"
 			(uuid "fed51542-0a74-44c0-8e86-696f878217bc")
 		)
@@ -1555,6 +1564,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 58.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "11"
 			(at 58.42 71.12 0)
 			(effects
 				(font
