@@ -4847,7 +4847,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R WTR"
-			(at 5.079999 -2.2 270)
+			(at 5.079999 -2.2 -90)
 			(layer "F.SilkS")
 			(uuid "36fdd1f5-c66a-4171-9df8-89c497ec7885")
 			(effects
@@ -27315,7 +27315,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R OIL"
-			(at 5.08 -2.370001 270)
+			(at 5.08 -2.370001 -90)
 			(layer "F.SilkS")
 			(uuid "e3784f8c-97aa-4a0e-b70d-a3b125960e82")
 			(effects
