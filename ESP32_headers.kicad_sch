@@ -930,6 +930,26 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 40.64 52.07) (xy 40.64 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678d829d-2ec3-4dd0-8015-759058748529")
+	)
+	(wire
+		(pts
+			(xy 43.18 52.07) (xy 43.18 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86d0533-fcd1-4b1c-8c50-14365def98e3")
+	)
 	(text_box "Micro-USB"
 		(exclude_from_sim no)
 		(at 35.56 63.5 0)
@@ -1340,7 +1360,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 54.61 180)
+		(at 43.18 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1348,7 +1368,7 @@
 		(dnp no)
 		(uuid "22008ee7-40cc-4ebe-8b6e-bba716066202")
 		(property "Reference" "#PWR08"
-			(at 43.18 48.26 0)
+			(at 43.18 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,7 +1377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 51.054 0)
+			(at 43.18 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,7 +1385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 54.61 0)
+			(at 43.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 54.61 0)
+			(at 43.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,7 +1403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 54.61 0)
+			(at 43.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1657,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 40.64 54.61 0)
+		(at 40.64 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1645,7 +1665,7 @@
 		(dnp no)
 		(uuid "6d6ba955-e852-49af-81ae-911f856d1673")
 		(property "Reference" "#PWR06"
-			(at 40.64 58.42 0)
+			(at 40.64 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,7 +1674,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 38.354 51.816 0)
+			(at 38.354 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 54.61 0)
+			(at 40.64 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,7 +1691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 54.61 0)
+			(at 40.64 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +1700,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 40.64 54.61 0)
+			(at 40.64 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -671,6 +671,10 @@
     [
       "d96b9e3e-488b-48dc-ad70-86487113a7b4",
       "MAX6675 K-Type Thermocouple Amp 4"
+    ],
+    [
+      "6ae02261-e46d-4a19-ac1e-bbc1cf38fab0",
+      "Load Cell"
     ]
   ],
   "text_variables": {}
