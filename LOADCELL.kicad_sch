@@ -1831,7 +1831,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 56.1848 90.17 0)
 			(effects
 				(font
@@ -1901,7 +1901,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 56.1848 77.47 0)
 			(effects
 				(font
@@ -1953,7 +1953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f396622-3c59-4a4c-a466-51f925717f18")
-		(property "Reference" "C8"
+		(property "Reference" "C23"
 			(at 63.5 52.07 90)
 			(effects
 				(font
@@ -1969,7 +1969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 67.31 58.7248 0)
 			(effects
 				(font
@@ -2005,7 +2005,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
-					(reference "C8")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -2155,7 +2155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74cd253c-fe11-41bf-9320-5d3a2c3f641b")
-		(property "Reference" "R21"
+		(property "Reference" "R17"
 			(at 72.39 77.4699 0)
 			(effects
 				(font
@@ -2173,7 +2173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.072 78.74 90)
 			(effects
 				(font
@@ -2209,7 +2209,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
-					(reference "R21")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2292,7 +2292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "909de615-cb46-43c2-aad1-1cfc75a4fb4d")
-		(property "Reference" "R26"
+		(property "Reference" "R20"
 			(at 49.53 119.38 90)
 			(effects
 				(font
@@ -2308,7 +2308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 49.53 117.348 90)
 			(effects
 				(font
@@ -2344,7 +2344,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
-					(reference "R26")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2360,7 +2360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9658ea4c-4cfa-4593-9556-f979de827db2")
-		(property "Reference" "R25"
+		(property "Reference" "R19"
 			(at 49.53 101.6 90)
 			(effects
 				(font
@@ -2376,7 +2376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 49.53 109.728 90)
 			(effects
 				(font
@@ -2412,7 +2412,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
-					(reference "R25")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2428,7 +2428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9721cb0d-4787-4e4f-8533-6388c17a72ce")
-		(property "Reference" "J18"
+		(property "Reference" "J15"
 			(at 34.925 69.85 0)
 			(effects
 				(font
@@ -2486,7 +2486,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
-					(reference "J18")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -2502,7 +2502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6aeaaaa-4597-4aa1-9667-f50b60accb71")
-		(property "Reference" "Q4"
+		(property "Reference" "Q1"
 			(at 67.31 68.5799 0)
 			(effects
 				(font
@@ -2562,7 +2562,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
-					(reference "Q4")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2596,7 +2596,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 56.1848 107.95 0)
 			(effects
 				(font
@@ -2648,7 +2648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2e1d0e0-4825-4b9a-8451-8215661f3c96")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR074"
 			(at 49.53 59.69 0)
 			(effects
 				(font
@@ -2699,7 +2699,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
-					(reference "#PWR076")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -2715,7 +2715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba38c1d5-0a10-4d81-9aa6-1c3a8ce4a457")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR075"
 			(at 45.72 77.47 0)
 			(effects
 				(font
@@ -2766,7 +2766,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
-					(reference "#PWR082")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -2782,7 +2782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbb6177a-a60a-426d-8a8e-9f244ae9d54a")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR077"
 			(at 119.38 85.09 0)
 			(effects
 				(font
@@ -2833,7 +2833,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
-					(reference "#PWR081")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -2849,7 +2849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd7cf045-dc59-45ba-98cd-2e2fef2b4e10")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR076"
 			(at 48.26 85.09 0)
 			(effects
 				(font
@@ -2900,7 +2900,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
-					(reference "#PWR083")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -2916,7 +2916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7932de4-98c3-4328-ae6a-95126ace806c")
-		(property "Reference" "R22"
+		(property "Reference" "R18"
 			(at 67.31 85.0899 0)
 			(effects
 				(font
@@ -2934,7 +2934,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.072 86.36 90)
 			(effects
 				(font
@@ -2970,7 +2970,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
-					(reference "R22")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2986,7 +2986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c855730b-153a-4fe9-98be-1430f9faf00f")
-		(property "Reference" "U1"
+		(property "Reference" "U13"
 			(at 102.5241 102.87 0)
 			(effects
 				(font
@@ -3082,7 +3082,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
-					(reference "U1")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -3098,7 +3098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc0c64df-1373-40bb-b25c-dbc4a8044965")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR073"
 			(at 102.87 59.69 0)
 			(effects
 				(font
@@ -3148,7 +3148,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
-					(reference "#PWR077")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)

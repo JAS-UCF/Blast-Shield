@@ -303,328 +303,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Polarized_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_US"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.032 -1.27)
-					(mid 0 -0.5572)
-					(end -2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers hide)
 			(pin_names
@@ -1682,7 +1360,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 40.64) (xy 113.03 40.64)
+			(xy 106.68 40.64) (xy 120.65 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1922,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 48.26) (xy 113.03 48.26)
+			(xy 106.68 48.26) (xy 120.65 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1996,7 +1674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0eef1b15-49f6-472e-8164-ba13e84ccaca")
-		(property "Reference" "R2"
+		(property "Reference" "R10"
 			(at 109.22 50.7999 0)
 			(effects
 				(font
@@ -2014,7 +1692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.902 52.07 90)
 			(effects
 				(font
@@ -2058,110 +1736,20 @@
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "R2")
-					(unit 1)
-				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "R4")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "R6")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "R8")
+					(reference "R16")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 85.09 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ffcf454-653f-4e81-85b6-8089a9f71f4e")
-		(property "Reference" "C6"
-			(at 86.36 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 86.106 85.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 85.09 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 85.09 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Item #" "4"
-			(at 85.09 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d7e3ac28-b6cd-4057-afdf-9b0d07352a37")
-		)
-		(pin "1"
-			(uuid "ebfe7057-7ec9-40fa-a742-1b65971ec42a")
-		)
-		(instances
-			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "C6")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "C11")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "C16")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "C21")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2176,7 +1764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a630b26-cbc4-416a-bac5-e7d1befd2e29")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR046"
 			(at 34.29 83.82 0)
 			(effects
 				(font
@@ -2226,19 +1814,19 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "#PWR0101")
+					(reference "#PWR046")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "#PWR028")
+					(reference "#PWR057")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "#PWR039")
+					(reference "#PWR068")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "#PWR017")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2254,7 +1842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28b9a4ab-a3a0-43a7-acb1-bf71274fc8f9")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 46.99 76.2 0)
 			(effects
 				(font
@@ -2317,12 +1905,8 @@
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "U3")
-					(unit 1)
-				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "U2")
+					(reference "U8")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
@@ -2330,113 +1914,11 @@
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "U8")
+					(reference "U12")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 116.84 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d04b786-000c-41f0-9d20-013b89467c4b")
-		(property "Reference" "D2"
-			(at 116.84 51.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 110.998 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 116.84 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 116.84 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 116.84 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 116.84 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Item #" "7"
-			(at 116.84 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d1a667ba-53e4-4844-9153-3cf833ef7805")
-		)
-		(pin "1"
-			(uuid "b7c3afec-2bb4-4fc9-888d-63d7b1e7a4ca")
-		)
-		(instances
-			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "D2")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "D4")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "D6")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "D8")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -2452,7 +1934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "373cee34-472d-48d8-a3db-44a1536babd9")
-		(property "Reference" "FB4"
+		(property "Reference" "FB2"
 			(at 41.8592 44.45 90)
 			(effects
 				(font
@@ -2512,12 +1994,8 @@
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "FB4")
-					(unit 1)
-				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "FB2")
+					(reference "FB4")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
@@ -2526,6 +2004,10 @@
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "FB8")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -2540,7 +2022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bca84d2-280b-48f9-9fbf-4e0d7d49a190")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR050"
 			(at 46.99 100.33 0)
 			(effects
 				(font
@@ -2590,19 +2072,109 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "#PWR0103")
+					(reference "#PWR050")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "#PWR029")
+					(reference "#PWR061")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "#PWR040")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "#PWR018")
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5180ff46-de4c-48b2-845d-70e17e7ed617")
+		(property "Reference" "C4"
+			(at 85.852 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 85.852 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 86.0552 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "3"
+			(at 85.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3b86d61-c394-4a6d-8223-8db5611596b7")
+		)
+		(pin "1"
+			(uuid "12057335-11b9-445f-89ae-e990b42f20bc")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2617,7 +2189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5732c826-6ed8-4e93-b678-98d4bc7eb37a")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR033"
 			(at 85.09 82.55 0)
 			(effects
 				(font
@@ -2666,20 +2238,20 @@
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "#PWR014")
-					(unit 1)
-				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "#PWR020")
+					(reference "#PWR044")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "#PWR031")
+					(reference "#PWR055")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "#PWR042")
+					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2694,7 +2266,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cdcad10-fede-4129-aa51-3592f348dea8")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 80.01 36.83 0)
 			(effects
 				(font
@@ -2773,15 +2345,15 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "U6")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "U7")
 					(unit 1)
 				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
 					(reference "U9")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
+					(reference "U11")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
@@ -2800,7 +2372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6768faff-d03b-4c1b-b5db-0ddee6713bb8")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 36.322 88.138 0)
 			(effects
 				(font
@@ -2818,7 +2390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 36.5252 93.98 0)
 			(effects
 				(font
@@ -2862,20 +2434,20 @@
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "C3")
-					(unit 1)
-				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "C5")
+					(reference "C11")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "C13")
+					(reference "C16")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "C18")
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2890,7 +2462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98757266-ce0f-40a8-ad17-1d3c80e28ce4")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR031"
 			(at 74.93 62.23 0)
 			(effects
 				(font
@@ -2939,20 +2511,20 @@
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "#PWR010")
-					(unit 1)
-				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "#PWR023")
+					(reference "#PWR042")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "#PWR034")
+					(reference "#PWR053")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "#PWR045")
+					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2967,7 +2539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d5e756e-0186-4f8a-a448-f11117f5d7fb")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 54.864 43.434 0)
 			(effects
 				(font
@@ -2985,7 +2557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 54.3052 49.53 0)
 			(effects
 				(font
@@ -3030,19 +2602,19 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "C19")
+					(reference "C18")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "C23")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3057,7 +2629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e2f61d8-57ac-4ee0-b34f-997196990af0")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR047"
 			(at 59.69 83.82 0)
 			(effects
 				(font
@@ -3107,19 +2679,19 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "#PWR0102")
+					(reference "#PWR047")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "#PWR030")
+					(reference "#PWR058")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "#PWR041")
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "#PWR019")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3134,7 +2706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4ded9e5-6bf9-4bab-9cce-ec8f8d26f9e3")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR032"
 			(at 106.68 55.88 0)
 			(effects
 				(font
@@ -3183,20 +2755,20 @@
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "#PWR012")
-					(unit 1)
-				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "#PWR027")
+					(reference "#PWR043")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "#PWR038")
+					(reference "#PWR054")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "#PWR049")
+					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3211,7 +2783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6201c96-5a91-4ddd-b2c3-68c03125abde")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR029"
 			(at 106.68 33.02 0)
 			(effects
 				(font
@@ -3260,20 +2832,110 @@
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "#PWR011")
-					(unit 1)
-				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "#PWR026")
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "#PWR037")
+					(reference "#PWR051")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "#PWR048")
+					(reference "#PWR062")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af69c0a3-0f61-4853-aaca-b96b8e05ec9f")
+		(property "Reference" "C5"
+			(at 96.012 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 96.012 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 96.2152 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "3"
+			(at 95.25 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e042519-7436-4889-948b-c9cc908dde6c")
+		)
+		(pin "1"
+			(uuid "265e2701-c56c-4c05-85df-acb1f3631fd8")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3288,7 +2950,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6c8393d-88e9-4377-abe6-783fa2f21a3a")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 59.182 88.138 0)
 			(effects
 				(font
@@ -3306,7 +2968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 59.3852 93.98 0)
 			(effects
 				(font
@@ -3350,100 +3012,6 @@
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "C4")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "C10")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "C15")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 95.25 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b75d7086-b688-4d2d-a18f-cca806efd7ae")
-		(property "Reference" "C7"
-			(at 96.52 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 96.266 85.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 95.25 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 95.25 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Item #" "4"
-			(at 95.25 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0e2bbcda-0417-40bb-9c41-65163959f33e")
-		)
-		(pin "1"
-			(uuid "9db644f6-5daa-4f1f-84ec-24ac0446d168")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "C7")
-					(unit 1)
-				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "C12")
 					(unit 1)
@@ -3454,6 +3022,10 @@
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
 					(reference "C22")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3468,7 +3040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb1843ee-2bbb-462e-ba64-4a9ca8788349")
-		(property "Reference" "J3"
+		(property "Reference" "J11"
 			(at 28.448 42.164 0)
 			(effects
 				(font
@@ -3528,20 +3100,20 @@
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "J3")
-					(unit 1)
-				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "J4")
+					(reference "J12")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "J5")
+					(reference "J13")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "J6")
+					(reference "J14")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -3556,7 +3128,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbe6bee4-4ad9-4c45-84a9-0ed40ec55ad1")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR038"
 			(at 95.25 92.71 0)
 			(effects
 				(font
@@ -3605,20 +3177,20 @@
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "#PWR016")
-					(unit 1)
-				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "#PWR025")
+					(reference "#PWR049")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "#PWR036")
+					(reference "#PWR060")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "#PWR047")
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3633,7 +3205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dca46185-80b7-4ce8-a095-4a0a1dd43c72")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR037"
 			(at 85.09 92.71 0)
 			(effects
 				(font
@@ -3682,20 +3254,20 @@
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "#PWR013")
-					(unit 1)
-				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "#PWR021")
+					(reference "#PWR048")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "#PWR032")
+					(reference "#PWR059")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "#PWR043")
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3711,7 +3283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eeba828d-a591-4ddb-aff2-50135aa6e1a0")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 109.22 35.5599 0)
 			(effects
 				(font
@@ -3729,7 +3301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.902 36.83 90)
 			(effects
 				(font
@@ -3774,19 +3346,19 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "R5")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "R7")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "R3")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3802,7 +3374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4386121-c96c-42fd-bc25-75af5c394d95")
-		(property "Reference" "FB9"
+		(property "Reference" "FB3"
 			(at 41.8592 31.75 90)
 			(effects
 				(font
@@ -3863,7 +3435,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "FB9")
+					(reference "FB3")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
@@ -3890,7 +3462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8fd48f1-9336-4103-8fec-876535e02dad")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR030"
 			(at 74.93 39.37 0)
 			(effects
 				(font
@@ -3939,20 +3511,20 @@
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "#PWR09")
-					(unit 1)
-				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "#PWR022")
+					(reference "#PWR041")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "#PWR033")
+					(reference "#PWR052")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "#PWR044")
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3967,7 +3539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc1b883b-c0b0-4009-9daa-8276693234fd")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR034"
 			(at 95.25 82.55 0)
 			(effects
 				(font
@@ -4016,126 +3588,20 @@
 		)
 		(instances
 			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "#PWR015")
-					(unit 1)
-				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "#PWR024")
+					(reference "#PWR045")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "#PWR035")
+					(reference "#PWR056")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 116.84 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc2bd6f7-44cc-46f5-8c20-eeab97ba7590")
-		(property "Reference" "D9"
-			(at 116.84 37.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 110.998 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 116.84 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 116.84 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 116.84 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 116.84 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Item #" "7"
-			(at 116.84 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "922f7730-1058-4885-b606-000754a1c636")
-		)
-		(pin "1"
-			(uuid "2d85cf72-3357-4b34-8e03-d624be6b7f66")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "D9")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "D5")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "D7")
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "D3")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)

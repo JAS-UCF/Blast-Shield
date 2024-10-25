@@ -1,4 +1,8 @@
 (fp_lib_table
   (version 7)
   (lib (name "hx711")(type "KiCad")(uri "${KIPRJMOD}/IMPORTS/hx711/hx711.pretty")(options "")(descr ""))
+  (lib (name "slc-12v")(type "KiCad")(uri "${KIPRJMOD}/IMPORTS/relay/slc-12v.pretty")(options "")(descr ""))
+  (lib (name "hn2199")(type "KiCad")(uri "${KIPRJMOD}/IMPORTS/1p1nMosfet/hn2199.pretty")(options "")(descr ""))
+  (lib (name "m7f")(type "KiCad")(uri "${KIPRJMOD}/IMPORTS/diode/m7f.pretty")(options "")(descr ""))
+  (lib (name "dg636")(type "KiCad")(uri "${KIPRJMOD}/IMPORTS/2pinTerminal/dg636.pretty")(options "")(descr ""))
 )

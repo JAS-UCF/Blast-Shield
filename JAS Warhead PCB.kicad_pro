@@ -503,6 +503,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -675,6 +676,18 @@
     [
       "6ae02261-e46d-4a19-ac1e-bbc1cf38fab0",
       "Load Cell"
+    ],
+    [
+      "81aa5915-b93f-4008-97e6-bb1a572ab37a",
+      "RELAY+CONTROLLER"
+    ],
+    [
+      "793a0201-7104-4785-8975-776499ee2f3a",
+      "RELAY+CONTROLLER1"
+    ],
+    [
+      "34966bfe-8241-4854-ade4-702e0a414335",
+      "RELAY+CONTROLLER2"
     ]
   ],
   "text_variables": {}

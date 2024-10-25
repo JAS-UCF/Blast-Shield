@@ -1302,7 +1302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0958296b-f957-475f-981d-566ad319a48a")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR028"
 			(at 43.18 82.55 0)
 			(effects
 				(font
@@ -1352,7 +1352,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/e02061e8-dea8-4b91-abef-2bf744ccc8cc"
-					(reference "#PWR07")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1367,7 +1367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22008ee7-40cc-4ebe-8b6e-bba716066202")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR027"
 			(at 43.18 45.72 0)
 			(effects
 				(font
@@ -1417,7 +1417,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/e02061e8-dea8-4b91-abef-2bf744ccc8cc"
-					(reference "#PWR08")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1432,7 +1432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55413910-d65c-4eb9-8467-f157c1a320ec")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 58.674 63.754 90)
 			(effects
 				(font
@@ -1533,7 +1533,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/e02061e8-dea8-4b91-abef-2bf744ccc8cc"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -1548,7 +1548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66397b28-71aa-4293-b809-49bd8ae5d69c")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 58.166 67.056 90)
 			(effects
 				(font
@@ -1649,7 +1649,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/e02061e8-dea8-4b91-abef-2bf744ccc8cc"
-					(reference "J9")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -1664,7 +1664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d6ba955-e852-49af-81ae-911f856d1673")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR026"
 			(at 40.64 55.88 0)
 			(effects
 				(font
@@ -1714,7 +1714,7 @@
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/e02061e8-dea8-4b91-abef-2bf744ccc8cc"
-					(reference "#PWR06")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
