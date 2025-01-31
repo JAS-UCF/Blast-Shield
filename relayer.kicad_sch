@@ -689,250 +689,6 @@
 				)
 			)
 		)
-		(symbol "slc-12v:SLC-12VDC-SL-C"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 0 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SLC-12VDC-SL-C"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "slc-12v:RELAY-TH_SLC-XXVDC-SL-C"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Relays_SLC-12VDC-SL-C_C187901.html"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C187901"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SLC-12VDC-SL-C_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -5.01 -2.18)
-					(mid -4.0904 -1.165)
-					(end -5.01 -0.15)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.01 0.02)
-					(mid -4.0718 1.03)
-					(end -5.01 2.04)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -5.08 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy 2.54 0) (xy 5.59 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -7.62 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 -7.62 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 7.62 270)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 7.62 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 128.27 57.15)
@@ -996,6 +752,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 106.68) (xy 139.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51634075-6493-4746-a519-7118e0f0a13a")
+	)
+	(wire
+		(pts
 			(xy 128.27 77.47) (xy 128.27 76.2)
 		)
 		(stroke
@@ -1016,16 +782,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 106.68) (xy 140.97 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b8b41d6-26a9-4621-889d-5afa679f65a0")
-	)
-	(wire
-		(pts
 			(xy 120.65 67.31) (xy 138.43 67.31)
 		)
 		(stroke
@@ -1033,16 +789,6 @@
 			(type default)
 		)
 		(uuid "62e8a9de-562c-40f9-baf4-33910508b08c")
-	)
-	(wire
-		(pts
-			(xy 139.7 101.6) (xy 140.97 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "728ea917-2a94-4e7c-afe2-16dd08ac9f0f")
 	)
 	(wire
 		(pts
@@ -1056,16 +802,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 115.57) (xy 156.21 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88571a22-e5a3-4e60-84a6-dceb4e27b9cf")
-	)
-	(wire
-		(pts
 			(xy 167.64 54.61) (xy 167.64 67.31)
 		)
 		(stroke
@@ -1073,16 +809,6 @@
 			(type default)
 		)
 		(uuid "8a3c1789-740f-4893-99f8-f1f67530923f")
-	)
-	(wire
-		(pts
-			(xy 132.08 96.52) (xy 140.97 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "977575dc-1c15-49b9-8258-49db5b75bc9b")
 	)
 	(wire
 		(pts
@@ -1178,7 +904,7 @@
 	)
 	(hierarchical_label "VOUT"
 		(shape output)
-		(at 156.21 99.06 0)
+		(at 139.7 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1198,7 +924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04f0b4b3-e6b5-4342-8a70-a4c881593b62")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR093"
 			(at 132.08 54.61 0)
 			(effects
 				(font
@@ -1273,7 +999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c5c7711-8598-4d90-91b3-80507131a7e3")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR094"
 			(at 115.57 63.5 0)
 			(effects
 				(font
@@ -1347,7 +1073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2845e3f8-a42d-47b1-ac8b-d0bc89b1a57f")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR095"
 			(at 128.27 83.82 0)
 			(effects
 				(font
@@ -1421,7 +1147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "468a8609-641c-4a51-be0b-c74724d0a5fe")
-		(property "Reference" "R21"
+		(property "Reference" "R25"
 			(at 123.19 62.2299 0)
 			(effects
 				(font
@@ -1490,80 +1216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 132.08 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68f3509b-1b16-4818-bcb8-065c370c8cc5")
-		(property "Reference" "#PWR084"
-			(at 132.08 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 132.08 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 132.08 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3b4ff9d-1654-4588-9a01-164f3d61228f")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/34966bfe-8241-4854-ade4-702e0a414335"
-					(reference "#PWR096")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/793a0201-7104-4785-8975-776499ee2f3a"
-					(reference "#PWR090")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/81aa5915-b93f-4008-97e6-bb1a572ab37a"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "hn2199:HN2199")
 		(at 146.05 58.42 0)
 		(unit 1)
@@ -1573,7 +1225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "926583b8-e905-4554-ad69-b7b02df55161")
-		(property "Reference" "U14"
+		(property "Reference" "U16"
 			(at 146.05 46.99 0)
 			(effects
 				(font
@@ -1676,7 +1328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a81411eb-25cd-41b3-aee1-19efa189573c")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 130.81 71.1199 0)
 			(effects
 				(font
@@ -1745,175 +1397,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 139.7 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0bfa7df-67b9-4ce9-a1c9-c5b8d898ef14")
-		(property "Reference" "#PWR091"
-			(at 133.35 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83b7b123-3dca-452c-97b7-287f45dff10d")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/34966bfe-8241-4854-ade4-702e0a414335"
-					(reference "#PWR097")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/793a0201-7104-4785-8975-776499ee2f3a"
-					(reference "#PWR091")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/81aa5915-b93f-4008-97e6-bb1a572ab37a"
-					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "slc-12v:SLC-12VDC-SL-C")
-		(at 148.59 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9faabf4-14f0-4077-b797-ea8e5dbcf426")
-		(property "Reference" "K1"
-			(at 148.59 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SLC-12VDC-SL-C"
-			(at 148.59 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "slc-12v:RELAY-TH_SLC-XXVDC-SL-C"
-			(at 163.83 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Relays_SLC-12VDC-SL-C_C187901.html"
-			(at 166.37 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C187901"
-			(at 168.91 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6a05d0c-ba69-4e0a-8458-fb52bf8bd8fd")
-		)
-		(pin "2"
-			(uuid "f6153ece-e7b8-45c9-9602-5f1a4ad8556b")
-		)
-		(pin "4"
-			(uuid "d55a2287-2cbf-43f7-b3d7-50ce4241a14b")
-		)
-		(pin "5"
-			(uuid "e07b0008-2a53-46f8-97ef-375cd777df12")
-		)
-		(pin "3"
-			(uuid "26c29b2a-c852-4792-8484-7cc9015c3d2b")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/34966bfe-8241-4854-ade4-702e0a414335"
-					(reference "K3")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/793a0201-7104-4785-8975-776499ee2f3a"
-					(reference "K2")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/81aa5915-b93f-4008-97e6-bb1a572ab37a"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "m7f:M7F_C466485")
 		(at 128.27 101.6 90)
 		(unit 1)
@@ -1923,7 +1406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da64c413-291d-4c79-b59d-4b8b8865d7ea")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 130.81 100.3299 90)
 			(effects
 				(font
@@ -1995,80 +1478,6 @@
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/81aa5915-b93f-4008-97e6-bb1a572ab37a"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4268938-7d9c-4a58-bfd3-b11c3a9bcf77")
-		(property "Reference" "#PWR086"
-			(at 156.21 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5159abd-884a-40be-8d62-e507e42ab984")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/34966bfe-8241-4854-ade4-702e0a414335"
-					(reference "#PWR098")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/793a0201-7104-4785-8975-776499ee2f3a"
-					(reference "#PWR092")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/81aa5915-b93f-4008-97e6-bb1a572ab37a"
-					(reference "#PWR086")
 					(unit 1)
 				)
 			)

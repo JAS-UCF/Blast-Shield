@@ -893,6 +893,145 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:AP2127R-3.3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP2127R-3.3"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 3.3V fixed positive output, SOT-89 package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?89*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP2127R-3.3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP2127R-3.3_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:LD1117S50TR_SOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1266,6 +1405,126 @@
 				)
 			)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -1496,6 +1755,12 @@
 		(uuid "0fe0591c-75fc-426d-9389-66cde8887a42")
 	)
 	(junction
+		(at 135.89 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "120cae51-0f32-4f80-ba1d-06169b682fa2")
+	)
+	(junction
 		(at 166.37 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1512,6 +1777,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29da4c45-b997-461d-9a01-cda01a7295ec")
+	)
+	(junction
+		(at 113.03 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4821c182-c15a-4ae0-a89a-61516c73a80f")
+	)
+	(junction
+		(at 124.46 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f25c06f-e95b-498b-ac56-ef331374283e")
 	)
 	(junction
 		(at 189.23 26.67)
@@ -1559,7 +1836,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 44.45) (xy 231.14 44.45)
+			(xy 222.25 27.94) (xy 227.33 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1589,7 +1866,17 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 57.15) (xy 255.27 59.69)
+			(xy 113.03 111.76) (xy 113.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db5c514-a9d3-4fc4-92db-4d028fa11836")
+	)
+	(wire
+		(pts
+			(xy 260.35 49.53) (xy 260.35 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1619,6 +1906,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 123.19) (xy 135.89 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165d4b5f-d07e-49f4-b356-5dab979e4eef")
+	)
+	(wire
+		(pts
 			(xy 254 148.59) (xy 260.35 148.59)
 		)
 		(stroke
@@ -1626,6 +1923,16 @@
 			(type default)
 		)
 		(uuid "16c9a182-a90b-405e-811d-f639c3581e29")
+	)
+	(wire
+		(pts
+			(xy 124.46 119.38) (xy 124.46 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b2edcc-3d25-4143-91bc-8f70cade4347")
 	)
 	(wire
 		(pts
@@ -1739,7 +2046,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 41.91) (xy 231.14 41.91)
+			(xy 222.25 25.4) (xy 227.33 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1779,6 +2086,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 111.76) (xy 135.89 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef7a582-67c5-43b8-a10a-4c23d1a488eb")
+	)
+	(wire
+		(pts
 			(xy 54.61 148.59) (xy 64.77 148.59)
 		)
 		(stroke
@@ -1799,7 +2116,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 54.61) (xy 248.92 54.61)
+			(xy 261.62 46.99) (xy 254 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1849,7 +2166,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 57.15) (xy 231.14 57.15)
+			(xy 228.6 57.15) (xy 233.68 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1969,6 +2286,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 111.76) (xy 111.76 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2f9d85-5adf-4091-a322-86ec613527b4")
+	)
+	(wire
+		(pts
 			(xy 189.23 26.67) (xy 196.85 26.67)
 		)
 		(stroke
@@ -1979,7 +2306,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 57.15) (xy 248.92 57.15)
+			(xy 260.35 49.53) (xy 254 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2159,6 +2486,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 111.76) (xy 111.76 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1dbcc36-fbbc-4d18-9cd5-be6265c6011c")
+	)
+	(wire
+		(pts
 			(xy 17.78 57.15) (xy 27.94 57.15)
 		)
 		(stroke
@@ -2169,13 +2506,33 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 54.61) (xy 231.14 54.61)
+			(xy 228.6 54.61) (xy 233.68 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cb51ab26-b26a-4778-be66-f22e45119dee")
+	)
+	(wire
+		(pts
+			(xy 135.89 111.76) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03046e1-0bea-4975-afe9-e82a8b03d16a")
+	)
+	(wire
+		(pts
+			(xy 113.03 123.19) (xy 124.46 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14306cc-9739-4791-ab6d-5745bc77610f")
 	)
 	(wire
 		(pts
@@ -2186,6 +2543,16 @@
 			(type default)
 		)
 		(uuid "d3836568-4b04-4938-b1ae-0d4169d84817")
+	)
+	(wire
+		(pts
+			(xy 132.08 111.76) (xy 135.89 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52e6e9d-23a6-4d35-8c3f-352c4d6370f3")
 	)
 	(wire
 		(pts
@@ -2226,6 +2593,16 @@
 			(type default)
 		)
 		(uuid "dd88ddca-6244-4d68-9828-2c0350eeb8f8")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf53983-1070-4616-b647-4d2ce4ba9b06")
 	)
 	(wire
 		(pts
@@ -2276,6 +2653,16 @@
 			(type default)
 		)
 		(uuid "e7528390-b594-4f0b-9030-724035b96bad")
+	)
+	(wire
+		(pts
+			(xy 116.84 111.76) (xy 113.03 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84baf77-ef39-4a3d-9205-5601d296b3c8")
 	)
 	(wire
 		(pts
@@ -2781,6 +3168,16 @@
 			"AADEpIwBAAAAOx0teShLAAAAAPT0f9PugO7Eh3ujAAAAAElFTkSuQmCC"
 		)
 	)
+	(text "RELAYS ARE NOW EXTERNAL AND NOT POPULATED ON THE BOARD"
+		(exclude_from_sim no)
+		(at 94.234 138.938 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "074c81a6-5a09-4f58-86b4-d0317a076ef1")
+	)
 	(text "Water Pump Relay"
 		(exclude_from_sim no)
 		(at 45.72 177.8 0)
@@ -2814,7 +3211,7 @@
 	)
 	(text "Test Points & External Connectivity"
 		(exclude_from_sim no)
-		(at 236.22 34.036 0)
+		(at 232.41 17.526 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2980,17 +3377,6 @@
 		)
 		(uuid "18c8aa1a-3bc6-4fd9-998a-5d7a31cb29a6")
 	)
-	(label "3V3"
-		(at 69.85 26.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "23518a97-35fa-4736-9ef1-64007ab3f6ee")
-	)
 	(label "SPI CLK"
 		(at 80.01 86.36 0)
 		(fields_autoplaced yes)
@@ -3080,7 +3466,7 @@
 		(uuid "5a7d4f85-d814-4f9e-99d8-5467a771743f")
 	)
 	(label "SCL"
-		(at 231.14 57.15 180)
+		(at 233.68 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3145,19 +3531,8 @@
 		)
 		(uuid "9e86f10c-dc76-475c-8d21-88f42b1071df")
 	)
-	(label "3V3"
-		(at 69.85 16.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b51de397-5e33-44d5-b543-30a4c5aa661e")
-	)
 	(label "SDA"
-		(at 231.14 54.61 180)
+		(at 233.68 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3276,17 +3651,6 @@
 			(justify right bottom)
 		)
 		(uuid "db536997-3eff-44a5-91ea-70f1bd68c857")
-	)
-	(label "3V3"
-		(at 256.54 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed6d7d55-f842-48fd-bcf7-c0aaee7f7e95")
 	)
 	(label "CS1"
 		(at 66.04 39.37 180)
@@ -4412,6 +4776,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 137.16 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43c24516-ae46-4e46-a420-2ced34420c1c")
+		(property "Reference" "#PWR085"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 137.16 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5443e774-a700-4719-90ec-5f665a81dbb0")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 215.9 138.43 0)
 		(unit 1)
@@ -4549,6 +4978,71 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 111.76 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47511183-3559-4481-a9e1-f5620d3f254e")
+		(property "Reference" "#PWR084"
+			(at 111.76 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 111.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 111.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32ab1d7b-c12f-45a5-bcf6-0768672d52f9")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5052,7 +5546,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 243.84 54.61 0)
+		(at 248.92 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5061,7 +5555,7 @@
 		(fields_autoplaced yes)
 		(uuid "604dcdf1-1893-4a6b-87d0-56a944019af5")
 		(property "Reference" "J4"
-			(at 244.475 49.53 0)
+			(at 249.555 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +5563,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 244.475 52.07 0)
+			(at 249.555 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +5571,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 243.84 54.61 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,7 +5580,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 54.61 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,7 +5589,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 243.84 54.61 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5104,7 +5598,7 @@
 			)
 		)
 		(property "Item #" "12"
-			(at 243.84 54.61 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,7 +5623,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 231.14 41.91 0)
+		(at 227.33 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5138,7 +5632,7 @@
 		(fields_autoplaced yes)
 		(uuid "62f7dd85-a66b-4067-b870-4e82cf745b5c")
 		(property "Reference" "#PWR06"
-			(at 231.14 45.72 0)
+			(at 227.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,7 +5641,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 233.68 40.6399 0)
+			(at 229.87 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,7 +5650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 41.91 0)
+			(at 227.33 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5165,7 +5659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 41.91 0)
+			(at 227.33 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,7 +5668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 231.14 41.91 0)
+			(at 227.33 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5690,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 220.98 54.61 0)
+		(at 223.52 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5205,7 +5699,7 @@
 		(fields_autoplaced yes)
 		(uuid "67c7f6f4-e0ca-456b-9756-9ca4045a2066")
 		(property "Reference" "J3"
-			(at 219.71 54.6099 0)
+			(at 222.25 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5708,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 219.71 57.1499 0)
+			(at 222.25 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5717,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 220.98 54.61 0)
+			(at 223.52 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5726,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 54.61 0)
+			(at 223.52 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +5735,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 220.98 54.61 0)
+			(at 223.52 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5744,7 @@
 			)
 		)
 		(property "Item #" "12"
-			(at 220.98 54.61 0)
+			(at 223.52 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,7 +5846,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 59.69 0)
+		(at 260.35 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5361,7 +5855,7 @@
 		(fields_autoplaced yes)
 		(uuid "6df41bc7-7841-4370-bf03-52722ba06b80")
 		(property "Reference" "#PWR010"
-			(at 255.27 66.04 0)
+			(at 260.35 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,7 +5864,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 60.9599 0)
+			(at 262.89 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5379,7 +5873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 59.69 0)
+			(at 260.35 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,7 +5882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 59.69 0)
+			(at 260.35 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5397,7 +5891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 59.69 0)
+			(at 260.35 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,6 +5906,84 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73df0963-4098-434a-80a8-73f457a4af01")
+		(property "Reference" "C27"
+			(at 113.792 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 113.792 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 113.9952 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 113.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "3"
+			(at 113.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f6dc88d-e510-463c-ab1d-55f45a171be2")
+		)
+		(pin "1"
+			(uuid "7005a6ef-b9d4-48d3-84b7-d4bd1f364444")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -6076,6 +6648,137 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 124.46 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e5feddc-1351-4558-ad13-e22ee606ff7f")
+		(property "Reference" "#PWR086"
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11e9a69f-f44a-43cc-9139-ae38b0a14da0")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 261.62 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fe180c8-8f5a-4789-a7e0-3761eeaec3d2")
+		(property "Reference" "#PWR035"
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 261.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 261.62 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d40ad12e-a73e-4d1a-95ea-a3d7165381f3")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 234.95 82.55 90)
 		(unit 1)
@@ -6286,6 +6989,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AP2127R-3.3")
+		(at 124.46 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b90b5c42-ed42-40f8-9f1a-db3067606e8f")
+		(property "Reference" "U17"
+			(at 124.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2127R-3.3"
+			(at 124.46 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf"
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 3.3V fixed positive output, SOT-89 package"
+			(at 124.46 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "19"
+			(at 124.46 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27afa863-6af9-437c-94d4-8e562b2da2e9")
+		)
+		(pin "2"
+			(uuid "09a6b36f-6f64-4d15-88ab-50ff3488c5c9")
+		)
+		(pin "3"
+			(uuid "f8ec09df-dc87-47ff-8c6e-046219b015cd")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 60.96 26.67 270)
 		(unit 1)
@@ -6354,7 +7137,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 220.98 41.91 0)
+		(at 217.17 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6363,7 +7146,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf030a05-25ed-41bf-96e3-06e2a923e5fe")
 		(property "Reference" "J2"
-			(at 221.615 36.83 0)
+			(at 217.805 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6371,7 +7154,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 221.615 39.37 0)
+			(at 217.805 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +7162,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 220.98 41.91 0)
+			(at 217.17 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,7 +7171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 41.91 0)
+			(at 217.17 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6397,7 +7180,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 220.98 41.91 0)
+			(at 217.17 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6406,7 +7189,7 @@
 			)
 		)
 		(property "Item #" "12"
-			(at 220.98 41.91 0)
+			(at 217.17 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,6 +7207,71 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 69.85 16.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf8c681e-feb3-4135-8c7f-4b3f7f32c43a")
+		(property "Reference" "#PWR033"
+			(at 69.85 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 69.85 12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 69.85 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23013cb9-0620-475a-b35a-dfa5dd916a85")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6558,6 +7406,71 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 69.85 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc7b0fa9-41a3-49a5-b3dd-fedc33e10523")
+		(property "Reference" "#PWR034"
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 69.85 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 69.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec6ca2e3-a223-4338-92f5-71d8db39be92")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6849,7 +7762,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 44.45 0)
+		(at 227.33 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6858,7 +7771,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0c2afcb-c09b-4e6d-91ac-1f6155d5af52")
 		(property "Reference" "#PWR07"
-			(at 231.14 50.8 0)
+			(at 227.33 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6867,7 +7780,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 45.7199 0)
+			(at 229.87 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6876,7 +7789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 44.45 0)
+			(at 227.33 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6885,7 +7798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 44.45 0)
+			(at 227.33 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +7807,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 44.45 0)
+			(at 227.33 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6975,6 +7888,84 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffb7d079-099d-46f1-93fc-40ef88c7f9dc")
+		(property "Reference" "C28"
+			(at 136.652 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 136.652 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 136.8552 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "3"
+			(at 135.89 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "407774dd-9675-4303-b31f-b169e6670ef6")
+		)
+		(pin "1"
+			(uuid "45888ec2-955f-427b-b976-d6a0c900e2a6")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -7108,7 +8099,7 @@
 		)
 	)
 	(sheet
-		(at 104.14 104.14)
+		(at 25.4 80.01)
 		(size 25.4 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -7120,7 +8111,7 @@
 		)
 		(uuid "6ae02261-e46d-4a19-ac1e-bbc1cf38fab0")
 		(property "Sheetname" "Load Cell"
-			(at 104.14 103.4284 0)
+			(at 25.4 79.2984 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7130,7 +8121,7 @@
 			)
 		)
 		(property "Sheetfile" "LOADCELL.kicad_sch"
-			(at 104.14 125.0446 0)
+			(at 25.4 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)

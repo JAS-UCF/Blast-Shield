@@ -5,4 +5,5 @@
   (lib (name "hn2199")(type "KiCad")(uri "${KIPRJMOD}/IMPORTS/1p1nMosfet/hn2199.kicad_sym")(options "")(descr ""))
   (lib (name "m7f")(type "KiCad")(uri "${KIPRJMOD}/IMPORTS/diode/m7f.kicad_sym")(options "")(descr ""))
   (lib (name "dg636")(type "KiCad")(uri "${KIPRJMOD}/IMPORTS/2pinTerminal/dg636.kicad_sym")(options "")(descr ""))
+  (lib (name "blastLib")(type "KiCad")(uri "${KIPRJMOD}/IMPORTS/blastLib.kicad_sym")(options "")(descr ""))
 )
