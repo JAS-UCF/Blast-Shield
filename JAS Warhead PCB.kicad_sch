@@ -171,168 +171,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x02_Socket"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Socket"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Socket_1_1"
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -1168,7 +1006,7 @@
 				)
 			)
 		)
-		(symbol "dg636:DG636-7.62-02P-14-00A(H)"
+		(symbol "blastLib:AHT20-F"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1180,16 +1018,16 @@
 					)
 				)
 			)
-			(property "Value" "DG636-7.62-02P-14-00A(H)"
-				(at 0 -5.08 0)
+			(property "Value" "AHT20-F"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "dg636:CONN-TH_DG636-7.62-02P-14-0"
-				(at 0 -7.62 0)
+			(property "Footprint" "blastLib:SENSOR-SMD-6_AHT20"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1197,8 +1035,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Screw-terminal_DEGSON-DG636-7-62-02P-14-00A-H_C581337.html"
-				(at 0 -10.16 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1215,7 +1053,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C581337"
+			(property "LCSC Part" "C3012622"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1224,10 +1062,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "DG636-7.62-02P-14-00A(H)_0_1"
+			(symbol "AHT20-F_0_1"
 				(rectangle
-					(start -2.54 5.08)
-					(end 2.54 -2.54)
+					(start -6.35 5.08)
+					(end 6.35 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -1237,7 +1075,7 @@
 					)
 				)
 				(circle
-					(center -1.27 3.81)
+					(center -5.08 3.81)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -1248,7 +1086,196 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 2.54 0)
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "blastLib:DB910-7.62-2P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DB910-7.62-2P"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "blastLib:CONN-TH_2P-P7.62_DB910-7.62-2P"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_DIBO-DB910-7-62-2P_C395876.html"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C395876"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DB910-7.62-2P_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -1266,7 +1293,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 0 0)
+					(at -5.08 -1.27 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -1779,6 +1806,12 @@
 		(uuid "29da4c45-b997-461d-9a01-cda01a7295ec")
 	)
 	(junction
+		(at 266.7 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ff7446c-3f44-4cd0-a825-2b0962f4cf96")
+	)
+	(junction
 		(at 113.03 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1797,6 +1830,12 @@
 		(uuid "741edf32-39d2-473a-b270-20a30a62e0f7")
 	)
 	(junction
+		(at 266.7 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99d66253-28de-4b84-b266-d09a6e98eb83")
+	)
+	(junction
 		(at 177.8 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1813,6 +1852,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5e0ef0e-5ad7-4a04-b72b-eca4246907ba")
+	)
+	(no_connect
+		(at 161.29 95.25)
+		(uuid "0e409cdc-f318-4e26-a67b-6439dc6ea5c9")
+	)
+	(no_connect
+		(at 179.07 95.25)
+		(uuid "81a813f7-6434-4b17-92da-e3e9b891a7e2")
+	)
+	(no_connect
+		(at 27.94 53.34)
+		(uuid "aa2545aa-8397-4a98-9aad-301cee1049c1")
 	)
 	(wire
 		(pts
@@ -1933,6 +1984,16 @@
 			(type default)
 		)
 		(uuid "17b2edcc-3d25-4143-91bc-8f70cade4347")
+	)
+	(wire
+		(pts
+			(xy 154.94 97.79) (xy 161.29 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c7a088-98e2-4835-9508-baaf0bcd73b7")
 	)
 	(wire
 		(pts
@@ -2076,7 +2137,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 26.67) (xy 275.59 26.67)
+			(xy 265.43 26.67) (xy 266.7 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2276,6 +2337,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 26.67) (xy 275.59 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0de2e3-eb5b-447e-a938-801a79e64fa3")
+	)
+	(wire
+		(pts
 			(xy 17.78 31.75) (xy 27.94 31.75)
 		)
 		(stroke
@@ -2316,6 +2387,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 97.79) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ac98df-27f1-43b7-b241-195ed6f8cb15")
+	)
+	(wire
+		(pts
+			(xy 48.26 83.82) (xy 39.37 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a4f87d-405f-441c-925f-487c1bcc9412")
+	)
+	(wire
+		(pts
 			(xy 76.2 29.21) (xy 88.9 29.21)
 		)
 		(stroke
@@ -2323,16 +2414,6 @@
 			(type default)
 		)
 		(uuid "88c7f149-277f-42b3-8300-ec6d56a0d06d")
-	)
-	(wire
-		(pts
-			(xy 17.78 53.34) (xy 27.94 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b1085a4-7085-46ff-bd75-229826f489e4")
 	)
 	(wire
 		(pts
@@ -2376,6 +2457,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 29.21) (xy 275.59 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe13bc3-02b0-4805-b67a-c348e7282576")
+	)
+	(wire
+		(pts
 			(xy 57.15 16.51) (xy 57.15 21.59)
 		)
 		(stroke
@@ -2393,6 +2484,16 @@
 			(type default)
 		)
 		(uuid "ae0001d3-9435-410c-9e3d-518b2d29b309")
+	)
+	(wire
+		(pts
+			(xy 186.69 100.33) (xy 179.07 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aedc5cd4-f83a-45c6-951b-382651403703")
 	)
 	(wire
 		(pts
@@ -2466,7 +2567,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 29.21) (xy 275.59 29.21)
+			(xy 265.43 29.21) (xy 266.7 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2626,6 +2727,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 81.28) (xy 39.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b7036d-72e3-494b-a27d-0dfa3bf5a5e8")
+	)
+	(wire
+		(pts
 			(xy 53.34 34.29) (xy 66.04 34.29)
 		)
 		(stroke
@@ -2663,6 +2774,16 @@
 			(type default)
 		)
 		(uuid "e84baf77-ef39-4a3d-9205-5601d296b3c8")
+	)
+	(wire
+		(pts
+			(xy 154.94 100.33) (xy 161.29 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee4d13ee-298d-4ef5-b9d3-bfa442dcedfe")
 	)
 	(wire
 		(pts
@@ -3211,7 +3332,7 @@
 	)
 	(text "Test Points & External Connectivity"
 		(exclude_from_sim no)
-		(at 232.41 17.526 0)
+		(at 230.886 15.748 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3300,6 +3421,17 @@
 		)
 		(uuid "02a2065b-4991-423d-9ffe-9387ddcbd62f")
 	)
+	(label "SDA"
+		(at 48.26 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08a00f73-840b-471c-90cd-02e75d89ac38")
+	)
 	(label "SPI Data_In"
 		(at 76.2 68.58 0)
 		(fields_autoplaced yes)
@@ -3377,6 +3509,17 @@
 		)
 		(uuid "18c8aa1a-3bc6-4fd9-998a-5d7a31cb29a6")
 	)
+	(label "SCL"
+		(at 154.94 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ec03ee1-bc26-4492-9de8-43b112206688")
+	)
 	(label "SPI CLK"
 		(at 80.01 86.36 0)
 		(fields_autoplaced yes)
@@ -3443,6 +3586,17 @@
 		)
 		(uuid "41bfee5d-c87b-4ee9-a21f-3188493b7887")
 	)
+	(label "SCL"
+		(at 48.26 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53c7a02c-1bcb-42b8-9179-be046624579e")
+	)
 	(label "RELAY1"
 		(at 27.94 186.69 0)
 		(fields_autoplaced yes)
@@ -3453,17 +3607,6 @@
 			(justify left bottom)
 		)
 		(uuid "56a5b0bf-85ad-48eb-95ad-b3e781328190")
-	)
-	(label "3V3"
-		(at 17.78 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a7d4f85-d814-4f9e-99d8-5467a771743f")
 	)
 	(label "SCL"
 		(at 233.68 57.15 180)
@@ -3542,6 +3685,17 @@
 		)
 		(uuid "bdca8ebf-bbaa-470a-ad50-b3bc6924b7bd")
 	)
+	(label "CS3"
+		(at 66.04 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf393ad3-2834-4e20-a1bf-bf8e5cc60c85")
+	)
 	(label "SPI Data_In"
 		(at 66.04 34.29 180)
 		(fields_autoplaced yes)
@@ -3574,6 +3728,17 @@
 			(justify left bottom)
 		)
 		(uuid "c7afeefc-953e-4d66-a342-26b1a40a4b2d")
+	)
+	(label "SDA"
+		(at 186.69 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd2dc241-be0d-429b-b001-4227805a1d55")
 	)
 	(label "OIL_Press"
 		(at 66.04 52.07 180)
@@ -3653,17 +3818,6 @@
 		(uuid "db536997-3eff-44a5-91ea-70f1bd68c857")
 	)
 	(label "CS1"
-		(at 66.04 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f3d9f8d0-5b3f-43f2-8f38-d0a877ca894d")
-	)
-	(label "CS3"
 		(at 66.04 44.45 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3672,7 +3826,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f603dec2-83d6-44e7-9990-d2deb45e0e30")
+		(uuid "e20cb2cf-87e3-4ee9-8544-72b496a22243")
 	)
 	(label "CS1"
 		(at 83.82 24.13 0)
@@ -4174,6 +4328,85 @@
 		)
 	)
 	(symbol
+		(lib_id "blastLib:DB910-7.62-2P")
+		(at 69.85 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1941dee3-790a-41e6-95a1-68febcfb23de")
+		(property "Reference" "CN3"
+			(at 73.66 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DB910-7.62-2P"
+			(at 73.66 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "blastLib:CONN-TH_2P-P7.62_DB910-7.62-2P"
+			(at 69.85 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_DIBO-DB910-7-62-2P_C395876.html"
+			(at 69.85 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C395876"
+			(at 69.85 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e0f9bd0-7fc8-4b78-9203-5bce80d46e95")
+		)
+		(pin "1"
+			(uuid "f010d84c-294b-40e7-b7dd-596980670bc2")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "CN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 246.38 82.55 90)
 		(unit 1)
@@ -4324,85 +4557,6 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dg636:DG636-7.62-02P-14-00A(H)")
-		(at 69.85 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a5699a0-1308-4cd1-a538-358de305fd67")
-		(property "Reference" "U3"
-			(at 73.66 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DG636-7.62-02P-14-00A(H)"
-			(at 73.66 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "dg636:CONN-TH_DG636-7.62-02P-14-0"
-			(at 69.85 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Screw-terminal_DEGSON-DG636-7-62-02P-14-00A-H_C581337.html"
-			(at 69.85 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C581337"
-			(at 69.85 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b862c41-e442-4d4c-bb0c-769d817e9926")
-		)
-		(pin "2"
-			(uuid "94cb868c-edfb-4af6-8d37-b452389a64be")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4697,35 +4851,33 @@
 		)
 	)
 	(symbol
-		(lib_id "dg636:DG636-7.62-02P-14-00A(H)")
-		(at 69.85 151.13 0)
+		(lib_id "blastLib:DB910-7.62-2P")
+		(at 261.62 27.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "43908f1a-42a2-4268-8310-e63ca38679b2")
-		(property "Reference" "U2"
-			(at 73.66 148.5899 0)
+		(uuid "437c5159-f051-4d60-b7a6-924a5ab7c7e4")
+		(property "Reference" "CN5"
+			(at 261.62 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "DG636-7.62-02P-14-00A(H)"
-			(at 73.66 151.1299 0)
+		(property "Value" "DB910-7.62-2P"
+			(at 261.62 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "dg636:CONN-TH_DG636-7.62-02P-14-0"
-			(at 69.85 158.75 0)
+		(property "Footprint" "blastLib:CONN-TH_2P-P7.62_DB910-7.62-2P"
+			(at 261.62 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4733,8 +4885,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Screw-terminal_DEGSON-DG636-7-62-02P-14-00A-H_C581337.html"
-			(at 69.85 161.29 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_DIBO-DB910-7-62-2P_C395876.html"
+			(at 261.62 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4895,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 151.13 0)
+			(at 261.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4751,25 +4903,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C581337"
-			(at 69.85 163.83 0)
+		(property "LCSC Part" "C395876"
+			(at 261.62 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "5a7397c6-b22f-4f6d-b7cd-f3428e82c39b")
 		)
 		(pin "2"
-			(uuid "9ea3e445-7d4b-461e-9cec-1db66d3c7b8e")
+			(uuid "fc8b79ec-c7e3-40d9-9af5-5f2b43d38496")
+		)
+		(pin "1"
+			(uuid "eb536f5a-42ad-4ae5-9c2d-e4fb94ef2754")
 		)
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
-					(reference "U2")
+					(reference "CN5")
 					(unit 1)
 				)
 			)
@@ -4902,6 +5054,83 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "blastLib:DB910-7.62-2P")
+		(at 217.17 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44c60da1-744d-44fa-98e7-5fddf26f4ec9")
+		(property "Reference" "CN6"
+			(at 217.17 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DB910-7.62-2P"
+			(at 217.17 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "blastLib:CONN-TH_2P-P7.62_DB910-7.62-2P"
+			(at 217.17 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_DIBO-DB910-7-62-2P_C395876.html"
+			(at 217.17 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C395876"
+			(at 217.17 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d52337f-322d-4107-a68c-5fdc0519387c")
+		)
+		(pin "1"
+			(uuid "b0f13345-7c7f-4dd8-aac8-8cf7dfd16185")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "CN6")
 					(unit 1)
 				)
 			)
@@ -5326,6 +5555,172 @@
 		)
 	)
 	(symbol
+		(lib_id "blastLib:AHT20-F")
+		(at 170.18 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fe932d2-56e0-4876-b0d5-ad13db5bc438")
+		(property "Reference" "U2"
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AHT20-F"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "blastLib:SENSOR-SMD-6_AHT20"
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3012622"
+			(at 170.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "0357a48e-8316-4882-8a13-ccd07bf9c6e9")
+		)
+		(pin "3"
+			(uuid "956528a9-9cd3-4019-8336-a93536447ebe")
+		)
+		(pin "5"
+			(uuid "c5243dd5-28da-47ab-a228-63dfc4fd3aa5")
+		)
+		(pin "4"
+			(uuid "1c7514e7-2bcb-469c-80ef-fd1379dd16c3")
+		)
+		(pin "1"
+			(uuid "4b6d5f79-3af6-422c-8f50-5b732b2eeddb")
+		)
+		(pin "2"
+			(uuid "c31f66aa-542a-4f0a-962f-11876858a364")
+		)
+		(instances
+			(project ""
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "blastLib:DB910-7.62-2P")
+		(at 248.92 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52f72ba0-175b-44bc-88e7-30a40a57afeb")
+		(property "Reference" "CN12"
+			(at 248.92 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DB910-7.62-2P"
+			(at 248.92 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "blastLib:CONN-TH_2P-P7.62_DB910-7.62-2P"
+			(at 248.92 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_DIBO-DB910-7-62-2P_C395876.html"
+			(at 248.92 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C395876"
+			(at 248.92 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "656848d6-a370-429a-b08c-5b161fb9d6d5")
+		)
+		(pin "1"
+			(uuid "b32d8c8f-8a96-4dde-b4b2-340db95f5281")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "CN12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 234.95 105.41 90)
 		(unit 1)
@@ -5397,6 +5792,72 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54ba1e97-0e5c-4364-befe-b8457c9aa3cb")
+		(property "Reference" "#PWR041"
+			(at 189.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75ec147e-fb12-4fed-8eb6-f89f10a33d7e")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5545,83 +6006,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 248.92 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "604dcdf1-1893-4a6b-87d0-56a944019af5")
-		(property "Reference" "J4"
-			(at 249.555 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 249.555 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 248.92 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.92 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 248.92 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Item #" "12"
-			(at 248.92 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "53149aea-2a18-423a-86cb-c6c4f9785ea3")
-		)
-		(pin "1"
-			(uuid "17b469f4-c8f3-4bc0-9480-be887680d557")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 227.33 25.4 0)
 		(unit 1)
@@ -5683,6 +6067,85 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "blastLib:DB910-7.62-2P")
+		(at 69.85 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "635b5ed1-b374-48b4-992e-81149cb2264a")
+		(property "Reference" "CN1"
+			(at 73.66 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DB910-7.62-2P"
+			(at 73.66 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "blastLib:CONN-TH_2P-P7.62_DB910-7.62-2P"
+			(at 69.85 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_DIBO-DB910-7-62-2P_C395876.html"
+			(at 69.85 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C395876"
+			(at 69.85 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ffe8912f-6631-43ab-8a53-91ed6114dfe3")
+		)
+		(pin "1"
+			(uuid "b768e6de-5567-4130-afd2-723fd6aed58a")
+		)
+		(instances
+			(project ""
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -5762,83 +6225,6 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 260.35 29.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a5ee865-0869-45c2-9a70-2034824a5a5a")
-		(property "Reference" "J1"
-			(at 260.985 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 260.985 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 260.35 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.35 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Item #" "10"
-			(at 260.35 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00b98b73-1fb6-44c1-8395-7c3dbbea96cd")
-		)
-		(pin "2"
-			(uuid "d3313194-3d5c-4426-8d1f-d2397fb5dbdb")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6069,6 +6455,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 154.94 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e813d2c-d646-44b3-9043-af23fbd7c97e")
+		(property "Reference" "#PWR030"
+			(at 154.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 154.94 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d574efbd-b117-4366-a2d4-95f01a97beb8")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 175.26 52.07 0)
 		(unit 1)
@@ -6211,6 +6662,162 @@
 		)
 	)
 	(symbol
+		(lib_id "blastLib:DB910-7.62-2P")
+		(at 248.92 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83183e5a-6692-450e-a257-af82843df544")
+		(property "Reference" "CN4"
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DB910-7.62-2P"
+			(at 248.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "blastLib:CONN-TH_2P-P7.62_DB910-7.62-2P"
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_DIBO-DB910-7-62-2P_C395876.html"
+			(at 248.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C395876"
+			(at 248.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c829acb2-954a-4450-a7a4-56893d834d90")
+		)
+		(pin "1"
+			(uuid "716053cc-4be0-4d24-a465-04d2db305a3a")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "blastLib:DB910-7.62-2P")
+		(at 69.85 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cd5077b-4a0d-4b18-bb34-2ad665b0ebb8")
+		(property "Reference" "CN2"
+			(at 73.66 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DB910-7.62-2P"
+			(at 73.66 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "blastLib:CONN-TH_2P-P7.62_DB910-7.62-2P"
+			(at 69.85 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_DIBO-DB910-7-62-2P_C395876.html"
+			(at 69.85 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C395876"
+			(at 69.85 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "146758da-ce6a-4aec-9ec9-e1a26b5ad8f7")
+		)
+		(pin "1"
+			(uuid "51770bb2-6451-4adc-b6c0-080ac80e3220")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 275.59 29.21 0)
 		(unit 1)
@@ -6272,83 +6879,6 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 198.12 151.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d6e6176-4684-4bbc-8111-e2bc800b8743")
-		(property "Reference" "J7"
-			(at 198.755 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 198.755 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 198.12 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Item #" "10"
-			(at 198.12 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b1937cf-b531-4590-a78c-dd75a5599f80")
-		)
-		(pin "2"
-			(uuid "7bf9eb90-309a-4592-bab9-7cb606e3999f")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -6421,90 +6951,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 248.92 151.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "952863f4-0a23-45ec-b42a-ad0fdbb61873")
-		(property "Reference" "J8"
-			(at 249.555 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 249.555 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 248.92 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.92 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Item #" "10"
-			(at 248.92 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7eee64b-b533-45ae-bf7d-38874b5ca0ec")
-		)
-		(pin "2"
-			(uuid "5a949b55-3a62-447f-b0bd-2b7ef9d90330")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 217.17 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "96ffe082-0c79-48e6-b00d-6f226e4e2333")
 		(property "Reference" "J6"
@@ -7136,83 +7589,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 217.17 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf030a05-25ed-41bf-96e3-06e2a923e5fe")
-		(property "Reference" "J2"
-			(at 217.805 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 217.805 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 217.17 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 217.17 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Item #" "12"
-			(at 217.17 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "de4f0548-a6ae-4498-bff3-f7e02ab5ef35")
-		)
-		(pin "1"
-			(uuid "a344ee5c-8b58-4e03-8202-1a9d5dac3e3d")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 69.85 16.51 0)
 		(unit 1)
@@ -7544,92 +7920,13 @@
 		)
 	)
 	(symbol
-		(lib_id "dg636:DG636-7.62-02P-14-00A(H)")
-		(at 69.85 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8867cc0-a60d-4603-b206-bea2b2843f8c")
-		(property "Reference" "U4"
-			(at 73.66 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DG636-7.62-02P-14-00A(H)"
-			(at 73.66 189.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "dg636:CONN-TH_DG636-7.62-02P-14-0"
-			(at 69.85 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Screw-terminal_DEGSON-DG636-7-62-02P-14-00A-H_C581337.html"
-			(at 69.85 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C581337"
-			(at 69.85 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e258f9a-3790-4b47-8cb8-f353b2780d6c")
-		)
-		(pin "2"
-			(uuid "ede94bf3-71ae-4b9d-ba33-5f7d73c1904a")
-		)
-		(instances
-			(project ""
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 217.17 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e94e1e47-b2df-43b1-8952-0463f616659b")
 		(property "Reference" "J5"
@@ -7822,6 +8119,83 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "blastLib:DB910-7.62-2P")
+		(at 198.12 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f278bc49-a962-47bc-b357-f7ff2f2fe3f9")
+		(property "Reference" "CN11"
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DB910-7.62-2P"
+			(at 198.12 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "blastLib:CONN-TH_2P-P7.62_DB910-7.62-2P"
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_DIBO-DB910-7-62-2P_C395876.html"
+			(at 198.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C395876"
+			(at 198.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76183ec9-70a3-42d1-bef3-b3da3ca05e62")
+		)
+		(pin "1"
+			(uuid "d81f626a-4dc4-435b-b0fc-86361be6376e")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "CN11")
 					(unit 1)
 				)
 			)
@@ -8099,8 +8473,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 80.01)
-		(size 25.4 20.32)
+		(at 21.59 78.74)
+		(size 17.78 8.89)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -8111,7 +8485,7 @@
 		)
 		(uuid "6ae02261-e46d-4a19-ac1e-bbc1cf38fab0")
 		(property "Sheetname" "Load Cell"
-			(at 25.4 79.2984 0)
+			(at 21.59 78.0284 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8121,13 +8495,33 @@
 			)
 		)
 		(property "Sheetfile" "LOADCELL.kicad_sch"
-			(at 25.4 100.9146 0)
+			(at 21.59 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "SDA" input
+			(at 39.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9a0a6f18-4596-4fd7-9a9f-fc69eb8b0b19")
+		)
+		(pin "SCL" input
+			(at 39.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d995d09a-d21a-44a6-8d8d-204b104df9ed")
 		)
 		(instances
 			(project "JAS Warhead PCB"

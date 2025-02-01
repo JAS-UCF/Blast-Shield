@@ -880,53 +880,28 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:S8550"
-			(pin_names
-				(offset 0) hide)
+		(symbol "blastLib:S8550M-D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "S8550"
-				(at 5.08 0 0)
+			(property "Value" "S8550M-D"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8550.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92"
-				(at 0 0 0)
+			(property "Footprint" "blastLib:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -934,7 +909,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "S8550 PNP Low Voltage High Current Transistor"
+			(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_BLUE-ROCKET-S8550M-D_C305484.html"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -943,8 +927,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
+			(property "LCSC Part" "C305484"
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -952,10 +936,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "S8550_0_1"
+			(symbol "S8550M-D_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.635 0)
+						(xy 0 -0.76) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -967,7 +951,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 0.635 -0.635)
+						(xy 0 2.29) (xy 0 -2.29)
 					)
 					(stroke
 						(width 0)
@@ -979,7 +963,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 0.635 0.635)
+						(xy 2.54 2.54) (xy 0 0.76)
 					)
 					(stroke
 						(width 0)
@@ -991,45 +975,20 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -2.286) (xy 2.286 -1.778) (xy 1.27 -1.27) (xy 1.778 -2.286) (xy 1.778 -2.286)
+						(xy 0 -0.76) (xy 1.52 -1.02) (xy 0.76 -2.03) (xy 0 -0.76)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type background)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "S8550_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin unspecified line
+					(at -2.54 0 0)
 					(length 2.54)
-					(name "E"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1044,10 +1003,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "B"
+				(pin unspecified line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1062,7 +1021,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "C"
@@ -1082,7 +1041,7 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1099,7 +1058,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1125,7 +1084,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1143,7 +1102,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1181,7 +1140,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1312,6 +1271,12 @@
 		(uuid "12955f5c-a2a2-48b9-babe-0198fd9c2d30")
 	)
 	(junction
+		(at 102.87 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "369655d8-7605-42e4-a140-ad8f9ad75359")
+	)
+	(junction
 		(at 57.15 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1348,12 +1313,6 @@
 		(uuid "9c04539b-50af-4291-a88b-7aee242dcfdb")
 	)
 	(junction
-		(at 102.87 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abe56887-15f2-4faf-b69e-a8fdffdd43ad")
-	)
-	(junction
 		(at 57.15 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1368,6 +1327,16 @@
 	(no_connect
 		(at 113.03 82.55)
 		(uuid "269f49d4-9cea-4085-8574-0359a75e21bb")
+	)
+	(wire
+		(pts
+			(xy 41.91 80.01) (xy 41.91 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01181719-b903-497d-9091-376d2db87c4d")
 	)
 	(wire
 		(pts
@@ -1388,16 +1357,6 @@
 			(type default)
 		)
 		(uuid "07d4aeb9-1608-42ff-9959-99836f8d28be")
-	)
-	(wire
-		(pts
-			(xy 102.87 55.88) (xy 102.87 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0896e91b-ac7e-4808-a181-0dbc65b394fa")
 	)
 	(wire
 		(pts
@@ -1461,16 +1420,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 107.95) (xy 43.18 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b1fb56e-20cf-41dc-8de3-11eb68e8ccf4")
-	)
-	(wire
-		(pts
 			(xy 76.2 82.55) (xy 69.85 82.55)
 		)
 		(stroke
@@ -1518,6 +1467,16 @@
 			(type default)
 		)
 		(uuid "4995dff4-069a-453c-a52f-049cdcfbc636")
+	)
+	(wire
+		(pts
+			(xy 74.93 69.85) (xy 87.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f3e7b5-1c34-42b7-9ad4-176a115a0d1c")
 	)
 	(wire
 		(pts
@@ -1581,23 +1540,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 80.01) (xy 39.37 80.01)
+			(xy 40.64 107.95) (xy 45.72 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97556ee9-5973-47f4-a9d6-f4848c323213")
-	)
-	(wire
-		(pts
-			(xy 45.72 107.95) (xy 43.18 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ba31550-6ad9-4e31-a260-90c9e7a5ad3e")
+		(uuid "8cabec16-baa9-4c2e-892d-e3350f9a332f")
 	)
 	(wire
 		(pts
@@ -1608,6 +1557,16 @@
 			(type default)
 		)
 		(uuid "9c0e32b3-ae0a-43a6-b809-4dd1268828f1")
+	)
+	(wire
+		(pts
+			(xy 41.91 80.01) (xy 39.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33e5d73-fe1c-4f2a-88ce-37c9657bdecf")
 	)
 	(wire
 		(pts
@@ -1631,6 +1590,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 82.55) (xy 39.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a103ae-65ca-4819-a064-31e76e48d231")
+	)
+	(wire
+		(pts
 			(xy 87.63 82.55) (xy 77.47 82.55)
 		)
 		(stroke
@@ -1651,16 +1620,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 69.85) (xy 87.63 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5c9c329-2a87-4db7-bb44-12bc356d5e60")
-	)
-	(wire
-		(pts
 			(xy 74.93 72.39) (xy 74.93 74.93)
 		)
 		(stroke
@@ -1671,13 +1630,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 82.55) (xy 39.37 82.55)
+			(xy 40.64 107.95) (xy 40.64 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbaf4f61-2575-4f12-a0bf-9579c0552374")
+		(uuid "dbef9237-d87c-4bec-af56-044aa1f033ac")
 	)
 	(wire
 		(pts
@@ -1728,16 +1687,6 @@
 			(type default)
 		)
 		(uuid "ea8828bb-7b8a-42ec-a817-739c4a7074b9")
-	)
-	(wire
-		(pts
-			(xy 41.91 115.57) (xy 41.91 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eefd6a57-e738-4949-81d5-b7a44a495876")
 	)
 	(wire
 		(pts
@@ -2006,6 +1955,71 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 102.87 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3459b615-20a4-4d32-8ea3-e977f82e3965")
+		(property "Reference" "#PWR048"
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 102.87 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "776d686c-2439-49af-9a2d-c9dc226ea66a")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2487,82 +2501,6 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
 					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:S8550")
-		(at 72.39 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6aeaaaa-4597-4aa1-9667-f50b60accb71")
-		(property "Reference" "Q1"
-			(at 67.31 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S8550"
-			(at 67.31 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 67.31 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8550.pdf"
-			(at 72.39 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92"
-			(at 72.39 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a133049e-68e0-4b16-af98-d3f2dd2865eb")
-		)
-		(pin "1"
-			(uuid "5b6ae473-06e0-4893-81fb-eae799a657b1")
-		)
-		(pin "2"
-			(uuid "b1e5da26-d58f-42e0-8c4a-29f0c4e40360")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3089,17 +3027,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 102.87 55.88 0)
+		(lib_id "blastLib:S8550M-D")
+		(at 72.39 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dc0c64df-1373-40bb-b25c-dbc4a8044965")
-		(property "Reference" "#PWR073"
-			(at 102.87 59.69 0)
+		(uuid "e4e68a99-8d9f-43e7-bc15-710ce3682ce6")
+		(property "Reference" "Q2"
+			(at 68.58 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S8550M-D"
+			(at 68.58 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "blastLib:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3107,16 +3063,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 102.87 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 55.88 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_BLUE-ROCKET-S8550M-D_C305484.html"
+			(at 72.39 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,8 +3072,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 102.87 55.88 0)
+		(property "Description" ""
+			(at 72.39 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,8 +3081,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 102.87 55.88 0)
+		(property "LCSC Part" "C305484"
+			(at 72.39 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,12 +3091,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "dca817d5-1673-4fac-8dc9-5e33278dce7f")
+			(uuid "41ad0e0d-a4f6-478a-874c-5bf4a8c52de2")
+		)
+		(pin "3"
+			(uuid "ecf0de42-263e-4521-827c-46e55140544c")
+		)
+		(pin "2"
+			(uuid "7b885fce-c13b-4d8f-a1c6-2b0f60accdaf")
 		)
 		(instances
-			(project "JAS Warhead PCB"
+			(project ""
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
-					(reference "#PWR073")
+					(reference "Q2")
 					(unit 1)
 				)
 			)

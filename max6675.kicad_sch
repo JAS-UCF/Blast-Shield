@@ -5,168 +5,6 @@
 	(uuid "b27aff40-a319-4944-9af1-55e7d1c912c3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Socket"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Socket"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Socket_1_1"
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -449,32 +287,28 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "blastLib:DB910-7.62-2P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "CN"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "DB910-7.62-2P"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
+			(property "Footprint" "blastLib:CONN-TH_2P-P7.62_DB910-7.62-2P"
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -482,7 +316,16 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_DIBO-DB910-7-62-2P_C395876.html"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -491,8 +334,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
+			(property "LCSC Part" "C395876"
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -500,162 +343,33 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
+			(symbol "DB910-7.62-2P_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Sensor_Temperature:MAX31855KASA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MAX31855KASA"
-				(at 1.27 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 25.4 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Cold Junction K-type Termocouple Interface, SPI, SO8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Cold Junction Termocouple Interface SPI"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MAX31855KASA_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-			)
-			(symbol "MAX31855KASA_1_1"
-				(pin power_in line
-					(at 0 -10.16 90)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
 					(length 2.54)
-					(name "GND"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -670,10 +384,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -10.16 -2.54 0)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
 					(length 2.54)
-					(name "T-"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -681,96 +395,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "T+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "V_CC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1212,38 +836,30 @@
 		)
 	)
 	(junction
-		(at 53.34 41.91)
+		(at 57.15 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "204938b1-bc7f-40b9-b7b2-bb0307e62f5c")
+		(uuid "357e8c0a-746a-49f2-b8f2-609966d11768")
 	)
 	(junction
-		(at 53.34 49.53)
+		(at 59.69 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "369ee2c2-71cd-4fb9-94c5-ebc0fb2ef0ef")
+		(uuid "6cfcf745-ebbc-49ad-96b9-c7850e8e8e94")
 	)
-	(junction
-		(at 106.68 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b341bc6-2fbc-4278-897d-18533eae43ba")
-	)
-	(junction
-		(at 106.68 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3652f0f-b8db-469a-b9cd-4c73d778e5e4")
+	(no_connect
+		(at 90.17 41.91)
+		(uuid "5dc0b442-c1a8-4bf7-b8a9-fe680d59d79d")
 	)
 	(wire
 		(pts
-			(xy 34.29 52.07) (xy 34.29 46.99)
+			(xy 31.75 52.07) (xy 38.1 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01770db7-897e-4a1f-9991-9c7f8c776263")
+		(uuid "00a04b90-f80e-44d7-bed4-73f781c92772")
 	)
 	(wire
 		(pts
@@ -1257,17 +873,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 39.37) (xy 34.29 44.45)
+			(xy 64.77 49.53) (xy 64.77 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ed3b9bb-3cbe-4037-b5ee-98d515225c04")
+		(uuid "10482ad6-0943-4a35-82dd-668dfea6f18a")
 	)
 	(wire
 		(pts
-			(xy 106.68 40.64) (xy 120.65 40.64)
+			(xy 90.17 49.53) (xy 125.73 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1287,6 +903,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 41.91) (xy 53.34 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293749de-8c9e-4714-b3c2-22005383a732")
+	)
+	(wire
+		(pts
 			(xy 53.34 52.07) (xy 53.34 49.53)
 		)
 		(stroke
@@ -1297,7 +923,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 41.91) (xy 53.34 41.91)
+			(xy 62.23 41.91) (xy 59.69 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1307,7 +933,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 43.18) (xy 120.65 43.18)
+			(xy 31.75 52.07) (xy 31.75 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60633162-5d0c-4a79-adc5-d5ea31e6b2ea")
+	)
+	(wire
+		(pts
+			(xy 90.17 44.45) (xy 125.73 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1327,7 +963,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 48.26) (xy 62.23 49.53)
+			(xy 34.29 39.37) (xy 34.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "871416c7-0bea-494d-977e-c195ac3e880b")
+	)
+	(wire
+		(pts
+			(xy 62.23 46.99) (xy 62.23 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1347,16 +993,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 55.88) (xy 106.68 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94034b1b-b6cb-41f2-9ffd-3bce0c252791")
-	)
-	(wire
-		(pts
 			(xy 45.72 39.37) (xy 53.34 39.37)
 		)
 		(stroke
@@ -1367,7 +1003,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 48.26) (xy 106.68 48.26)
+			(xy 90.17 46.99) (xy 125.73 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1377,37 +1013,27 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 29.21) (xy 106.68 33.02)
+			(xy 57.15 59.69) (xy 64.77 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbf44425-5f7d-469b-bd7b-8b41b78fd4ad")
+		(uuid "9e94e906-b90a-43f4-b7d4-67e3818d3c19")
 	)
 	(wire
 		(pts
-			(xy 38.1 52.07) (xy 34.29 52.07)
+			(xy 34.29 46.99) (xy 30.48 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd35b4d8-c4da-4bb7-b33c-33ba721f8fce")
+		(uuid "c417381f-953e-493e-9399-f4e21a525701")
 	)
 	(wire
 		(pts
-			(xy 85.09 40.64) (xy 106.68 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2c5b999-5628-4203-b4cd-d2cd3476511d")
-	)
-	(wire
-		(pts
-			(xy 62.23 43.18) (xy 62.23 41.91)
+			(xy 62.23 44.45) (xy 62.23 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1417,7 +1043,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 48.26) (xy 62.23 48.26)
+			(xy 64.77 46.99) (xy 62.23 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1427,7 +1053,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 43.18) (xy 62.23 43.18)
+			(xy 64.77 44.45) (xy 62.23 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1437,17 +1063,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 48.26) (xy 120.65 48.26)
+			(xy 30.48 44.45) (xy 31.75 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6900a1f-a86b-4481-8d02-1902ebf2a9f3")
+		(uuid "fdcb9303-8ef2-45b9-a38c-3ee513878764")
 	)
 	(text "\"Data Out\""
 		(exclude_from_sim no)
-		(at 130.556 43.942 0)
+		(at 133.604 41.402 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1457,7 +1083,7 @@
 	)
 	(hierarchical_label "DO"
 		(shape input)
-		(at 120.65 43.18 0)
+		(at 125.73 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1469,7 +1095,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 120.65 40.64 0)
+		(at 125.73 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1481,7 +1107,7 @@
 	)
 	(hierarchical_label "CS"
 		(shape input)
-		(at 120.65 48.26 0)
+		(at 125.73 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1492,35 +1118,16 @@
 		(uuid "b9992ee7-e6dc-4bd5-8541-7b93981d85e6")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 106.68 52.07 0)
+		(lib_id "power:GND")
+		(at 57.15 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0eef1b15-49f6-472e-8164-ba13e84ccaca")
-		(property "Reference" "R12"
-			(at 109.22 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 109.22 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 104.902 52.07 90)
+		(uuid "08c13618-b41c-4b05-bedd-6d113b723b96")
+		(property "Reference" "#PWR039"
+			(at 57.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,8 +1135,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 106.68 52.07 0)
+		(property "Value" "GND"
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,8 +1152,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 106.68 52.07 0)
+		(property "Datasheet" ""
+			(at 57.15 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,37 +1161,34 @@
 				(hide yes)
 			)
 		)
-		(property "Item #" "16"
-			(at 106.68 52.07 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "cf68835b-7ebc-4090-ab73-230ef160b643")
 		)
 		(pin "1"
-			(uuid "110a4009-40c9-4756-b576-54a5c2fea05e")
+			(uuid "e4ce559c-c262-4576-a9c6-30464afa5732")
 		)
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "R12")
+					(reference "#PWR039")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "R14")
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "R16")
+					(reference "#PWR043")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "R10")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1672,16 +1284,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Temperature:MAX31855KASA")
-		(at 74.93 45.72 0)
+		(lib_id "Device:C")
+		(at 57.15 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5cdcad10-fede-4129-aa51-3592f348dea8")
-		(property "Reference" "U7"
-			(at 80.01 36.83 0)
+		(fields_autoplaced yes)
+		(uuid "3a247d97-1961-4aec-a26c-e5542e75704b")
+		(property "Reference" "C5"
+			(at 60.96 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,8 +1302,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX31855KASA"
-			(at 76.454 54.61 0)
+		(property "Value" "100nF"
+			(at 60.96 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,18 +1311,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 100.33 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
-			(at 74.93 45.72 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 58.1152 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,8 +1320,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Cold Junction K-type Termocouple Interface, SPI, SO8"
-			(at 74.93 45.72 0)
+		(property "Datasheet" "~"
+			(at 57.15 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,52 +1329,126 @@
 				(hide yes)
 			)
 		)
-		(property "Item #" "21"
-			(at 74.93 45.72 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.15 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "7"
-			(uuid "4991227c-9cdb-44cc-954e-646afd51f37c")
-		)
-		(pin "6"
-			(uuid "ea617bdf-eb06-4556-93cf-5fba35214ad4")
-		)
-		(pin "4"
-			(uuid "7ceabbda-bf43-4a93-8de8-f21cc5b2143a")
-		)
-		(pin "1"
-			(uuid "f0f0f252-dd3f-4f2c-a388-a9d2a0a45100")
-		)
-		(pin "5"
-			(uuid "f2036dd1-d893-4477-986f-f47c3c41f611")
 		)
 		(pin "2"
-			(uuid "fcf98bf9-0730-4eef-8dfa-757e45ede6ba")
+			(uuid "6edf5d6d-0470-4151-b780-6517d60256e8")
 		)
-		(pin "3"
-			(uuid "b16f6f42-c686-4963-aa0f-8184673ddac6")
+		(pin "1"
+			(uuid "5f927b38-929e-4f6d-b115-257815ba4043")
+		)
+		(instances
+			(project ""
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "blastLib:DB910-7.62-2P")
+		(at 25.4 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b14f7de-f65a-48f7-9200-ce59f20e8967")
+		(property "Reference" "CN8"
+			(at 25.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DB910-7.62-2P"
+			(at 25.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "blastLib:CONN-TH_2P-P7.62_DB910-7.62-2P"
+			(at 25.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_DIBO-DB910-7-62-2P_C395876.html"
+			(at 25.4 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C395876"
+			(at 25.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bda1d3c4-63a5-468f-8c66-e0165f4df41f")
+		)
+		(pin "1"
+			(uuid "5348c337-19f8-496e-92a2-20f975a8d3e5")
 		)
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "U7")
+					(reference "CN8")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "U9")
+					(reference "CN9")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "U11")
+					(reference "CN10")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "U5")
+					(reference "CN7")
 					(unit 1)
 				)
 			)
@@ -1779,7 +1456,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 55.88 0)
+		(at 64.77 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1787,7 +1464,7 @@
 		(dnp no)
 		(uuid "98757266-ce0f-40a8-ad17-1d3c80e28ce4")
 		(property "Reference" "#PWR042"
-			(at 74.93 62.23 0)
+			(at 64.77 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +1473,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 59.69 0)
+			(at 64.77 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +1481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 55.88 0)
+			(at 64.77 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +1490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 55.88 0)
+			(at 64.77 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +1499,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 55.88 0)
+			(at 64.77 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,106 +1532,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 53.34 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d5e756e-0186-4f8a-a448-f11117f5d7fb")
-		(property "Reference" "C8"
-			(at 54.864 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.01uF"
-			(at 54.864 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 54.3052 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Item #" "5"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e44e21a-370e-4ca7-8039-03c7f5a188f5")
-		)
-		(pin "2"
-			(uuid "1da9753e-01d9-474f-b147-1770805376d6")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "C8")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "C13")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "C18")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 106.68 59.69 180)
+		(at 57.15 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a4ded9e5-6bf9-4bab-9cce-ec8f8d26f9e3")
-		(property "Reference" "#PWR043"
-			(at 106.68 55.88 0)
+		(uuid "99b7a2bd-12d1-4e12-9563-aa6af50bbd07")
+		(property "Reference" "#PWR045"
+			(at 57.15 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +1550,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 106.68 63.754 0)
+			(at 57.15 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +1558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 59.69 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +1567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 59.69 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +1576,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 106.68 59.69 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,280 +1585,101 @@
 			)
 		)
 		(pin "1"
-			(uuid "fcd86959-511c-44a9-8205-42ad6575abf5")
+			(uuid "85339570-60b0-41b4-97fc-d2c0bd685d7b")
 		)
 		(instances
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "#PWR054")
+					(reference "#PWR046")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "#PWR065")
+					(reference "#PWR047")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4e31b15-b7ff-425c-b71e-3525277f865b")
+		(property "Reference" "#PWR032"
+			(at 59.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aced06c0-bbdc-477d-b06c-6dd68b6e3ee1")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "#PWR032")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 106.68 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6201c96-5a91-4ddd-b2c3-68c03125abde")
-		(property "Reference" "#PWR040"
-			(at 106.68 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 106.68 25.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 106.68 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0db31419-c3ea-4ec0-b839-273f61ab7bc4")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "#PWR040")
-					(unit 1)
-				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "#PWR051")
+					(reference "#PWR036")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "#PWR062")
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 29.21 46.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb1843ee-2bbb-462e-ba64-4a9ca8788349")
-		(property "Reference" "J12"
-			(at 28.448 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 23.876 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 29.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Item #" "10"
-			(at 29.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6da5e92-148f-4711-8b1e-1cda628ded9b")
-		)
-		(pin "2"
-			(uuid "53433173-9423-44bd-b184-c490dbb9b620")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "J12")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "J13")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "J14")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eeba828d-a591-4ddb-aff2-50135aa6e1a0")
-		(property "Reference" "R11"
-			(at 109.22 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 109.22 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 104.902 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 106.68 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Item #" "16"
-			(at 106.68 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dbf6ab45-4102-439a-ac91-632da28fc5fa")
-		)
-		(pin "1"
-			(uuid "ac2bf35b-4021-4a7a-9420-04a360d560f7")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "R11")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "R15")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2367,85 +1775,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 74.93 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8fd48f1-9336-4103-8fec-876535e02dad")
-		(property "Reference" "#PWR041"
-			(at 74.93 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 74.93 31.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 74.93 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90536484-2d6d-4cc9-9264-f512041544d3")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
-					(reference "#PWR041")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/b6f4e946-46a4-4670-a1fe-6fb7545d6b82"
-					(reference "#PWR052")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/d96b9e3e-488b-48dc-ad70-86487113a7b4"
-					(reference "#PWR063")
-					(unit 1)
-				)
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245/ee4cde56-c1fa-403c-8798-e93040e5410a"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "blastLib:MAX6675ISA+T")
-		(at 76.2 72.39 0)
+		(at 77.47 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2453,8 +1784,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb6e9670-0d6b-48aa-8636-ff0ec63305dd")
-		(property "Reference" "U12"
-			(at 76.2 60.96 0)
+		(property "Reference" "U8"
+			(at 77.47 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +1793,7 @@
 			)
 		)
 		(property "Value" "MAX6675ISA+T"
-			(at 76.2 63.5 0)
+			(at 77.47 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +1801,7 @@
 			)
 		)
 		(property "Footprint" "blastLib:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
-			(at 76.2 83.82 0)
+			(at 77.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +1810,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Analog-ICs_MAXIM_MAX6675ISA-T_MAX6675ISA-T_C16030.html"
-			(at 76.2 86.36 0)
+			(at 77.47 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,7 +1819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 72.39 0)
+			(at 77.47 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2497,7 +1828,7 @@
 			)
 		)
 		(property "LCSC Part" "C16030"
-			(at 76.2 88.9 0)
+			(at 77.47 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
