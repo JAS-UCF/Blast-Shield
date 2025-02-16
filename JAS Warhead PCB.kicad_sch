@@ -1984,6 +1984,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 124.46) (xy 153.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056f0752-50a8-40f8-b678-66aac05666ac")
+	)
+	(wire
+		(pts
 			(xy 229.87 107.95) (xy 222.25 107.95)
 		)
 		(stroke
@@ -2171,6 +2181,16 @@
 			(type default)
 		)
 		(uuid "29889c9c-6ef4-4946-bfe8-ad9cf83a4b5c")
+	)
+	(wire
+		(pts
+			(xy 161.29 127) (xy 153.67 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae39dbd-a080-4278-a2d6-0649506ccdc3")
 	)
 	(wire
 		(pts
@@ -2574,6 +2594,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 25.4) (xy 27.94 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5ed0ff-f4c4-48db-abb9-f3dc0852f71d")
+	)
+	(wire
+		(pts
 			(xy 109.22 172.72) (xy 115.57 172.72)
 		)
 		(stroke
@@ -2761,6 +2791,16 @@
 			(type default)
 		)
 		(uuid "cb51ab26-b26a-4778-be66-f22e45119dee")
+	)
+	(wire
+		(pts
+			(xy 161.29 121.92) (xy 153.67 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2dfe9d9-7844-4e99-a046-2c63b6b0b71a")
 	)
 	(wire
 		(pts
@@ -3446,7 +3486,7 @@
 		)
 		(uuid "25a92e31-a4ac-4e0f-94e6-00157a47c16e")
 	)
-	(text "TODO\nRemove nonsensical Diodes on SPI Lanes\nRe-vamp the connections for relays\nConnect load cell properly\nRe-work board placement entirely\nGenerate BOM to work with JLC manufacturing\nRe-think the LDO and potentially add more power to the board\nCompletely re-consider the size of certain things on the board, most capacitors and resistors can be 0603, except load bearing / buring resistors"
+	(text "TODO\nRemove nonsensical Diodes on SPI Lanes\nRe-vamp the connections for relays\nConnect load cell properly\nRe-work board placement entirely\nGenerate BOM to work with JLC manufacturing\nRe-think the LDO and potentially add more power to the board\nCompletely re-consider the size of certain things on the board, most capacitors and resistors can be 0603, except load bearing / buring resistors\nAdd 5v Servo Drive"
 		(exclude_from_sim no)
 		(at 19.304 -8.636 0)
 		(effects
@@ -3768,6 +3808,17 @@
 		)
 		(uuid "885baf0f-f742-4a10-8cd1-5148fcdf67ea")
 	)
+	(label "SERVO"
+		(at 17.78 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b0a6a6f-1df6-430a-acec-820c1028ced9")
+	)
 	(label "OilTemp"
 		(at 17.78 34.29 0)
 		(fields_autoplaced yes)
@@ -3800,6 +3851,17 @@
 			(justify right bottom)
 		)
 		(uuid "9e86f10c-dc76-475c-8d21-88f42b1071df")
+	)
+	(label "SERVO"
+		(at 161.29 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7eb6989-7a53-46ab-9cdf-19c8d016b27a")
 	)
 	(label "SDA"
 		(at 233.68 54.61 180)
@@ -4304,6 +4366,72 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 161.29 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07246776-6780-422f-9850-70bf37b341d8")
+		(property "Reference" "#PWR052"
+			(at 161.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 161.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a42f734a-e443-40b2-a190-5fbae29f5a5a")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -7242,6 +7370,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 161.29 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d150617-3423-4618-8e1e-aceb079de0a4")
+		(property "Reference" "#PWR054"
+			(at 161.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56623a82-d7ab-4b04-81d4-53e27938ba6a")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 261.62 46.99 0)
 		(unit 1)
@@ -7977,6 +8171,77 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 148.59 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "da737d41-abd1-4ed8-b04b-657b7b95e909")
+		(property "Reference" "J1"
+			(at 149.225 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 149.225 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 148.59 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 148.59 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bdf3a132-efe1-4cba-88d0-f77c84a51c7e")
+		)
+		(pin "2"
+			(uuid "4eed0af9-be52-4c8c-9a1a-36d469548dfa")
+		)
+		(pin "1"
+			(uuid "4bebae9a-1200-4e51-bc7a-c6579b0090e4")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "J1")
 					(unit 1)
 				)
 			)
