@@ -1954,16 +1954,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 34.29) (xy 27.94 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "010a95b5-27d6-4849-9977-0edf033da4f7")
-	)
-	(wire
-		(pts
 			(xy 222.25 27.94) (xy 227.33 27.94)
 		)
 		(stroke
@@ -2594,16 +2584,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 25.4) (xy 27.94 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f5ed0ff-f4c4-48db-abb9-f3dc0852f71d")
-	)
-	(wire
-		(pts
 			(xy 109.22 172.72) (xy 115.57 172.72)
 		)
 		(stroke
@@ -2784,6 +2764,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 27.94) (xy 27.94 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ed09f2-4e1e-42e0-ae52-b97afab26130")
+	)
+	(wire
+		(pts
 			(xy 228.6 54.61) (xy 233.68 54.61)
 		)
 		(stroke
@@ -2931,6 +2921,16 @@
 			(type default)
 		)
 		(uuid "e3b7036d-72e3-494b-a27d-0dfa3bf5a5e8")
+	)
+	(wire
+		(pts
+			(xy 17.78 38.1) (xy 27.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50b82ce-f586-4590-b2c0-9562073e5a52")
 	)
 	(wire
 		(pts
@@ -3643,6 +3643,17 @@
 		)
 		(uuid "14958600-34d9-4501-9ac7-d3ae588ea609")
 	)
+	(label "SERVO"
+		(at 17.78 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16992f23-059c-4d36-a923-a5b4f8944ee9")
+	)
 	(label "SPI CLK"
 		(at 80.01 66.04 0)
 		(fields_autoplaced yes)
@@ -3731,6 +3742,17 @@
 		)
 		(uuid "39f5d907-119f-4d0b-9bf8-0ddefd2cdcde")
 	)
+	(label "OilTemp"
+		(at 17.78 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d1c3d98-682e-4ef9-83c9-b6457ecee99a")
+	)
 	(label "SPI CLK"
 		(at 80.01 45.72 0)
 		(fields_autoplaced yes)
@@ -3807,28 +3829,6 @@
 			(justify left bottom)
 		)
 		(uuid "885baf0f-f742-4a10-8cd1-5148fcdf67ea")
-	)
-	(label "SERVO"
-		(at 17.78 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b0a6a6f-1df6-430a-acec-820c1028ced9")
-	)
-	(label "OilTemp"
-		(at 17.78 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "91c72009-cfa2-4902-acf4-97d2e87d89a2")
 	)
 	(label "SPI CLK"
 		(at 80.01 26.67 0)
