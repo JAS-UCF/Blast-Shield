@@ -1825,6 +1825,18 @@
 		(uuid "00a95599-cb5f-4839-bc8d-4945d0c702cd")
 	)
 	(junction
+		(at 205.74 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "082bea53-92b4-4919-87d7-1dfe9a4e0870")
+	)
+	(junction
+		(at 209.55 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fe0591c-75fc-426d-9389-66cde8887a42")
+	)
+	(junction
 		(at 260.35 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1855,6 +1867,12 @@
 		(uuid "7c44c6b1-47bf-4247-a97a-d71ff1569975")
 	)
 	(junction
+		(at 213.36 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "831bbcab-2c52-4a4a-901b-df34efecef20")
+	)
+	(junction
 		(at 109.22 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1873,16 +1891,22 @@
 		(uuid "93afdfce-971b-4264-93df-0c57a118d3db")
 	)
 	(junction
-		(at 214.63 148.59)
+		(at 265.43 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "999bcf24-059f-49ab-b260-fa4c2a08a158")
+		(uuid "9437119a-3754-41b1-97c6-1faf40008a6e")
 	)
 	(junction
 		(at 266.7 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99d66253-28de-4b84-b266-d09a6e98eb83")
+	)
+	(junction
+		(at 254 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a025f8cf-eba2-4853-b5b7-68b3b903dab4")
 	)
 	(junction
 		(at 182.88 39.37)
@@ -1927,11 +1951,11 @@
 		(uuid "ffe63998-f0c6-4aa8-b77a-f28af14a3fb4")
 	)
 	(no_connect
-		(at 142.24 93.98)
+		(at 161.29 95.25)
 		(uuid "0e409cdc-f318-4e26-a67b-6439dc6ea5c9")
 	)
 	(no_connect
-		(at 160.02 93.98)
+		(at 179.07 95.25)
 		(uuid "81a813f7-6434-4b17-92da-e3e9b891a7e2")
 	)
 	(no_connect
@@ -2044,7 +2068,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 96.52) (xy 142.24 96.52)
+			(xy 154.94 97.79) (xy 161.29 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2071,6 +2095,16 @@
 			(type default)
 		)
 		(uuid "1869cfa1-7a34-48d2-851e-2e490a76c269")
+	)
+	(wire
+		(pts
+			(xy 213.36 163.83) (xy 209.55 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a429c49-35bb-469f-805c-a6cb8c096da5")
 	)
 	(wire
 		(pts
@@ -2144,7 +2178,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 151.13) (xy 254 156.21)
+			(xy 254 156.21) (xy 254 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2204,17 +2238,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 148.59) (xy 217.17 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32caba42-5173-43a4-8228-37d0011196ec")
-	)
-	(wire
-		(pts
-			(xy 260.35 148.59) (xy 266.7 148.59)
+			(xy 260.35 148.59) (xy 265.43 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2374,6 +2398,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 148.59) (xy 213.36 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5980fed7-8ae8-4635-b1b4-ea4649d548d7")
+	)
+	(wire
+		(pts
+			(xy 254 153.67) (xy 254 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8e90b4-f04f-4065-8825-02aee7408a19")
+	)
+	(wire
+		(pts
 			(xy 241.3 105.41) (xy 241.3 111.76)
 		)
 		(stroke
@@ -2421,6 +2465,16 @@
 			(type default)
 		)
 		(uuid "65da57b7-4009-4832-a5d1-a4097d40437a")
+	)
+	(wire
+		(pts
+			(xy 209.55 163.83) (xy 209.55 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71920e18-fded-4e95-ada7-b97505b49891")
 	)
 	(wire
 		(pts
@@ -2474,7 +2528,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 151.13) (xy 205.74 156.21)
+			(xy 205.74 152.4) (xy 205.74 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2514,7 +2568,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 96.52) (xy 160.02 96.52)
+			(xy 189.23 97.79) (xy 179.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2551,6 +2605,16 @@
 			(type default)
 		)
 		(uuid "8c43246c-5339-4413-a36e-211778f39024")
+	)
+	(wire
+		(pts
+			(xy 265.43 163.83) (xy 262.89 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a0fdd2-19ac-4575-b7ef-d15bf83edfbf")
 	)
 	(wire
 		(pts
@@ -2604,6 +2668,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 152.4) (xy 205.74 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5fad543-f4a1-4e5b-8433-85b140240abc")
+	)
+	(wire
+		(pts
+			(xy 205.74 156.21) (xy 205.74 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7882f2c-5658-406f-bcc2-0ec816ba0389")
+	)
+	(wire
+		(pts
 			(xy 266.7 29.21) (xy 275.59 29.21)
 		)
 		(stroke
@@ -2624,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 99.06) (xy 160.02 99.06)
+			(xy 186.69 100.33) (xy 179.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2734,6 +2818,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 148.59) (xy 266.7 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee85dbc-dfb1-4fb6-90c6-4eef00436f55")
+	)
+	(wire
+		(pts
 			(xy 186.69 21.59) (xy 186.69 29.21)
 		)
 		(stroke
@@ -2741,6 +2835,16 @@
 			(type default)
 		)
 		(uuid "c177afab-a3ac-4099-9cfa-392d99ea0ca6")
+	)
+	(wire
+		(pts
+			(xy 262.89 153.67) (xy 254 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4760251-b8b7-4473-86ad-1c7d29934b2b")
 	)
 	(wire
 		(pts
@@ -2771,6 +2875,16 @@
 			(type default)
 		)
 		(uuid "c8ed09f2-4e1e-42e0-ae52-b97afab26130")
+	)
+	(wire
+		(pts
+			(xy 262.89 163.83) (xy 262.89 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c957eaf1-2e51-4a42-a6b6-862e8e3c853f")
 	)
 	(wire
 		(pts
@@ -2824,7 +2938,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 138.43) (xy 214.63 138.43)
+			(xy 215.9 138.43) (xy 209.55 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2844,7 +2958,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 148.59) (xy 214.63 148.59)
+			(xy 203.2 148.59) (xy 209.55 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2944,6 +3058,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 148.59) (xy 217.17 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e0f2dc-a3be-4e1f-ade5-cfaecbe97e8f")
+	)
+	(wire
+		(pts
 			(xy 53.34 52.07) (xy 66.04 52.07)
 		)
 		(stroke
@@ -2964,7 +3088,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 99.06) (xy 142.24 99.06)
+			(xy 154.94 100.33) (xy 161.29 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3024,7 +3148,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 148.59) (xy 214.63 146.05)
+			(xy 209.55 148.59) (xy 209.55 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3688,7 +3812,7 @@
 		(uuid "18c8aa1a-3bc6-4fd9-998a-5d7a31cb29a6")
 	)
 	(label "SCL"
-		(at 135.89 99.06 0)
+		(at 154.94 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3919,7 +4043,7 @@
 		(uuid "c7afeefc-953e-4d66-a342-26b1a40a4b2d")
 	)
 	(label "SDA"
-		(at 167.64 99.06 180)
+		(at 186.69 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4571,6 +4695,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 265.43 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fb19ddd-e6c2-44e9-976f-82093f62d8af")
+		(property "Reference" "R11"
+			(at 267.97 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 267.97 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 263.652 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "18"
+			(at 265.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4b7487a-9075-415e-93c1-f5c0a3c52108")
+		)
+		(pin "2"
+			(uuid "4671de04-338e-4d31-b6d7-2d0a1bd3ff99")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 175.26 67.31 0)
 		(unit 1)
@@ -5101,6 +5304,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "37da7bf3-6990-4c02-ad2d-81c889611157")
 		(property "Reference" "U3"
 			(at 167.64 22.86 0)
@@ -5313,6 +5517,73 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "CN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 215.9 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4449f706-ed89-4755-b24f-1f54a4352548")
+		(property "Reference" "#PWR019"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 218.44 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 215.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a505037-3713-4c36-88df-c419f0e8c3d1")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5684,7 +5955,7 @@
 	)
 	(symbol
 		(lib_id "blastLib:AHT20-F")
-		(at 151.13 96.52 0)
+		(at 170.18 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5693,7 +5964,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fe932d2-56e0-4876-b0d5-ad13db5bc438")
 		(property "Reference" "U2"
-			(at 151.13 86.36 0)
+			(at 170.18 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5972,7 @@
 			)
 		)
 		(property "Value" "AHT20-F"
-			(at 151.13 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,7 +5980,7 @@
 			)
 		)
 		(property "Footprint" "blastLib:SENSOR-SMD-6_AHT20"
-			(at 151.13 106.68 0)
+			(at 170.18 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +5989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 96.52 0)
+			(at 170.18 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +5998,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 96.52 0)
+			(at 170.18 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +6007,7 @@
 			)
 		)
 		(property "LCSC Part" "C3012622"
-			(at 151.13 109.22 0)
+			(at 170.18 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +6198,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 96.52 0)
+		(at 189.23 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5936,7 +6207,7 @@
 		(fields_autoplaced yes)
 		(uuid "54ba1e97-0e5c-4364-befe-b8457c9aa3cb")
 		(property "Reference" "#PWR041"
-			(at 170.18 102.87 0)
+			(at 189.23 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,7 +6216,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 101.6 0)
+			(at 189.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +6224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 96.52 0)
+			(at 189.23 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +6233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 96.52 0)
+			(at 189.23 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +6242,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 96.52 0)
+			(at 189.23 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,6 +6257,85 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57a40aeb-c903-4e6e-8461-beb6248c54ee")
+		(property "Reference" "R10"
+			(at 215.9 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 215.9 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 211.582 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "18"
+			(at 213.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6876aa83-53e4-4c5e-b77f-544ddfe96cd2")
+		)
+		(pin "2"
+			(uuid "c4141f53-2ed2-46fe-87f4-00793c1d6f14")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6128,71 +6478,6 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 266.7 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f78dc55-e0eb-433f-b8ac-6f2b88c19166")
-		(property "Reference" "#PWR056"
-			(at 266.7 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 266.7 134.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 266.7 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93c19a6b-8e2c-4609-96da-50c7fc47f77d")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -6492,7 +6777,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 135.89 96.52 0)
+		(at 154.94 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6500,7 +6785,7 @@
 		(dnp no)
 		(uuid "7e813d2c-d646-44b3-9043-af23fbd7c97e")
 		(property "Reference" "#PWR030"
-			(at 135.89 100.33 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +6794,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 135.89 92.964 0)
+			(at 154.94 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,7 +6802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 96.52 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,7 +6811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 96.52 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +6820,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 135.89 96.52 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6999,6 +7284,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 213.36 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9268dcab-d2a3-4331-b43e-0ff8129b09c9")
+		(property "Reference" "R9"
+			(at 215.9 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 215.9 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 211.582 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "18"
+			(at 213.36 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a52e91cf-b997-41d5-a2af-43df0e0d975a")
+		)
+		(pin "2"
+			(uuid "c4652cd6-3753-4e62-bacd-7c57b2484a10")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 229.87 102.87 0)
 		(unit 1)
@@ -7289,7 +7653,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 142.24 0)
+		(at 209.55 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7298,7 +7662,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a21289f-7bc5-468e-a660-a4be52eec553")
 		(property "Reference" "R7"
-			(at 217.17 140.9699 0)
+			(at 212.09 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7307,7 +7671,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 217.17 143.5099 0)
+			(at 212.09 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7316,7 +7680,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 212.852 142.24 90)
+			(at 207.772 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7325,7 +7689,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 142.24 0)
+			(at 209.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7334,7 +7698,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 142.24 0)
+			(at 209.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7343,7 +7707,7 @@
 			)
 		)
 		(property "Item #" "18"
-			(at 214.63 142.24 0)
+			(at 209.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,6 +7864,85 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 265.43 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a143ea1b-efa4-4bd1-ac5c-a2d1228de649")
+		(property "Reference" "R12"
+			(at 267.97 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 267.97 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 263.652 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Item #" "18"
+			(at 265.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d842d9d-f945-453e-9931-78a22e9904fb")
+		)
+		(pin "2"
+			(uuid "dcdff119-f312-4597-a71a-3b3b7f4c2734")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 234.95 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7636,6 +8079,73 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 266.7 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b69f5dfc-7f13-4a32-8c63-015a358082fc")
+		(property "Reference" "#PWR020"
+			(at 266.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 269.24 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 266.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c61ca4b4-31c5-4449-8642-4086fe9d15da")
+		)
+		(instances
+			(project "JAS Warhead PCB"
+				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8611,71 +9121,6 @@
 			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
 					(reference "CN11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 215.9 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f41c1f6d-35c4-4b5a-8306-e8d9af1ab28c")
-		(property "Reference" "#PWR055"
-			(at 215.9 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 215.9 134.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 215.9 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa31f864-1eb3-4a22-a522-a8408c6029f9")
-		)
-		(instances
-			(project "JAS Warhead PCB"
-				(path "/a037544f-9a20-478c-bac0-d162f9edf245"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)

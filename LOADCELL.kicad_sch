@@ -3100,7 +3100,7 @@
 			(uuid "7b885fce-c13b-4d8f-a1c6-2b0f60accdaf")
 		)
 		(instances
-			(project ""
+			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/6ae02261-e46d-4a19-ac1e-bbc1cf38fab0"
 					(reference "Q2")
 					(unit 1)
