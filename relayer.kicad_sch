@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(date "2024-04-21")
+		(company "Jet & Aeronautics Society")
 	)
 	(lib_symbols
 		(symbol "Device:R"

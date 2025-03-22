@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "b27aff40-a319-4944-9af1-55e7d1c912c3")
 	(paper "A4")
+	(title_block
+		(date "2024-04-21")
+		(company "Jet & Aeronautics Society")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)

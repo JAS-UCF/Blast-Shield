@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "8cd250d4-b878-4638-946c-da4e99a5a254")
 	(paper "A4")
+	(title_block
+		(date "2024-04-21")
+		(company "Jet & Aeronautics Society")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x15_Socket"
 			(pin_names
