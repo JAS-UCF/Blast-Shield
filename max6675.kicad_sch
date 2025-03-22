@@ -1349,7 +1349,7 @@
 			(uuid "5f927b38-929e-4f6d-b115-257815ba4043")
 		)
 		(instances
-			(project ""
+			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "C5")
 					(unit 1)
@@ -1865,7 +1865,7 @@
 			(uuid "51149209-10e6-4b73-aa91-2bb14f647cc4")
 		)
 		(instances
-			(project ""
+			(project "JAS Warhead PCB"
 				(path "/a037544f-9a20-478c-bac0-d162f9edf245/33494ee0-5260-4aa3-9ab4-c336b9d18702"
 					(reference "U8")
 					(unit 1)
